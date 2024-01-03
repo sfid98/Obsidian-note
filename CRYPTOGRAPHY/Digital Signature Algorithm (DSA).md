@@ -8,7 +8,7 @@ The three principal differences with respect to the ElGamal digital signature al
 As suggested by the last revision of the standard we can assume the following.
 Let $p$ be a prime number of 1024 bits long.
 Let $q$ be a prime number of 160 bits long such that $q|p − 1$
-Let $\alpha$ be a generator of the subgroup of order q of Zp \ {0}.
+Let $\alpha$ be a generator of the subgroup of order $q$  of $Z_p \backslash \{0\}$.
 - User A  secrete key: $a ∈ Z_q$ (160 bits)
 - User A public key: $(p, q, α, β = α^a)$.
 - Message to sign: $x$ , which is an arbitrary binary sequence.
@@ -17,14 +17,14 @@ Let $\alpha$ be a generator of the subgroup of order q of Zp \ {0}.
 	$\gamma = (SHA1(x) + a\gamma)k^{−1}\text{ mod q }$
 	if $\delta = 0$ we start again with a different random $k$.
 ##### Remark
-- $SHA1(x)$ $can be viewed as an element of $Z_q$ because it is a number of 160 bits.
+- $SHA1(x)$ can be viewed as an element of $Z_q$ because it is a number of 160 bits.
 - There is a sign change in the formula of $delta$.
 - The signature is 320 bits long.
 
 ##### Verification process
 
-$e1 = SHA1(x)δ^{-1} \text{mod q}$ 
-$e2 = γ\cdotδ^{−1} \text{mod q}$
+$e_1 = SHA1(x)δ^{-1} \text{mod q}$ 
+$e_2 = γ\cdotδ^{−1} \text{mod q}$
 
 The signature is accepted for $x$ if
 	 $(α^{e_1} β^{e_2} \text{ mod p}) \text{ mod q} = γ \text{ mod q}$ 
