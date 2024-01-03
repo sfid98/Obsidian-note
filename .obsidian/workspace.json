@@ -34,15 +34,23 @@
             }
           },
           {
-            "id": "643f1b86916a4f1d",
+            "id": "5063b86d53eeddcd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CRYPTOGRAPHY/Program.md",
-                "mode": "source",
+                "file": "CRYPTOGRAPHY/Digital Signature Algorithm (DSA).md",
+                "mode": "preview",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "f12f613fc18a370c",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
             }
           }
         ],
@@ -121,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CRYPTOGRAPHY/Program.md",
+                "file": "CRYPTOGRAPHY/Digital Signature Algorithm (DSA).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CRYPTOGRAPHY/Program.md",
+                "file": "CRYPTOGRAPHY/Digital Signature Algorithm (DSA).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CRYPTOGRAPHY/Program.md"
+                "file": "CRYPTOGRAPHY/Digital Signature Algorithm (DSA).md"
               }
             }
           }
@@ -183,16 +191,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "643f1b86916a4f1d",
+  "active": "5063b86d53eeddcd",
   "lastOpenFiles": [
-    "CRYPTOGRAPHY/RSA Digital signature scheme.md",
-    "CRYPTOGRAPHY/Theorems.md",
-    "CRYPTOGRAPHY/Diffie Hellman Key Exchange.md",
     "CRYPTOGRAPHY/Program.md",
-    "CRYPTOGRAPHY/Rsa System.md",
-    "CRYPTOGRAPHY/Digital Signature Algorithm (DSA).md",
     "CRYPTOGRAPHY/Elgamal Digital Signature Scheme.md",
+    "CRYPTOGRAPHY/Digital Signature Algorithm (DSA).md",
+    "CRYPTOGRAPHY/Theorems.md",
     "CRYPTOGRAPHY/Elgamal Scheme.md",
+    "CRYPTOGRAPHY/Diffie Hellman Key Exchange.md",
+    "CRYPTOGRAPHY/Chinese Remainder Theorem.md",
+    "CRYPTOGRAPHY/RSA Digital signature scheme.md",
+    "CRYPTOGRAPHY/Rsa System.md",
     "CRYPTOGRAPHY/Output Feedback (OFB).md",
     "CRYPTOGRAPHY/images/2024-01-03_19-53.png",
     "CRYPTOGRAPHY/images/2024-01-03_19-53_2.png",
@@ -209,7 +218,6 @@
     "Network Security",
     "CRYPTOGRAPHY/McEliece Cryptosystem.md",
     "CRYPTOGRAPHY/Cipher Block Chain.md",
-    "CRYPTOGRAPHY/Chinese Remainder Theorem.md",
     "test.drawio.svg",
     "CRYPTOGRAPHY/test(1).drawio",
     "CRYPTOGRAPHY/Cipher Feedback Mode.md",
