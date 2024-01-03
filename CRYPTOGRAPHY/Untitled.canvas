@@ -1,11 +1,4 @@
 {
-	"nodes":[
-		{"id":"edfb42b1b165a2a9","x":-360,"y":-80,"width":250,"height":60,"type":"text","text":"BLOCK CIPHER"},
-		{"id":"73e2764d0571a3c2","x":-20,"y":20,"width":250,"height":60,"type":"text","text":"[[Advanced Encryption Standard (AES)]]"},
-		{"id":"646f16013a0d3861","x":-20,"y":-160,"width":250,"height":50,"type":"text","text":"[[Data Encryption Standard (DES)]]"}
-	],
-	"edges":[
-		{"id":"76ba0c636a6b7d70","fromNode":"edfb42b1b165a2a9","fromSide":"right","toNode":"646f16013a0d3861","toSide":"left"},
-		{"id":"db4db8f6ff464a26","fromNode":"edfb42b1b165a2a9","fromSide":"right","toNode":"73e2764d0571a3c2","toSide":"left"}
-	]
+	"nodes":[],
+	"edges":[]
 }

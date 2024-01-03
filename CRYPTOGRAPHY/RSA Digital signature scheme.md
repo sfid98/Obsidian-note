@@ -1,0 +1,7 @@
+- Choose two prime number $p$ and  $q$ and compute $n = p \cdot q$
+- Compute $\phi(n) = (p - 1)(q-1)$
+- Find and integer $e$ such that $(e, \phi(n)) = 1$
+- Find the private key $d$ as $de \equiv 1 \text{ mod } \phi(n)$  
+- The digital signature is the pair $(D,F)$  where $F = D^d$
+- The receiver will accept the signature if $D = F^e$
+	- $D ^d = F^{e\cdot d} = F \text{ mod n}$ but A is the only one who knows $d$ so the signature is accepted
