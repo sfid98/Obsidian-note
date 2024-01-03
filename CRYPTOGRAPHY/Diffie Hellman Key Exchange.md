@@ -13,5 +13,9 @@ A calculate:
 B calculate
 - $\beta^a = g^ {b \cdot a} = k \text{ mod p }$
 
+So they both obtained the same key that can be used for the symmetric exchange
+
+
+
 
 

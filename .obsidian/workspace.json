@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CRYPTOGRAPHY/Diffie Hellman Key Exchange.md",
+                "file": "CRYPTOGRAPHY/Elgamal Scheme.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CRYPTOGRAPHY/Diffie Hellman Key Exchange.md",
+                "file": "CRYPTOGRAPHY/Elgamal Scheme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CRYPTOGRAPHY/Diffie Hellman Key Exchange.md",
+                "file": "CRYPTOGRAPHY/Elgamal Scheme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CRYPTOGRAPHY/Diffie Hellman Key Exchange.md"
+                "file": "CRYPTOGRAPHY/Elgamal Scheme.md"
               }
             }
           }
@@ -159,19 +159,22 @@
   "active": "bf766263c7a95ba9",
   "lastOpenFiles": [
     "CRYPTOGRAPHY/Program.md",
+    "CRYPTOGRAPHY/Elgamal Scheme.md",
+    "Network Security",
     "CRYPTOGRAPHY/Diffie Hellman Key Exchange.md",
+    "CRYPTOGRAPHY/Advanced Encryption Standard (AES).md",
+    "CRYPTOGRAPHY/McEliece Cryptosystem.md",
+    "CRYPTOGRAPHY/Elgamal Digital Signature Scheme.md",
     "CRYPTOGRAPHY/Rsa System.md",
     "CRYPTOGRAPHY/Cipher Block Chain.md",
     "CRYPTOGRAPHY/Chinese Remainder Theorem.md",
     "CRYPTOGRAPHY/Block Ciphers.md",
-    "CRYPTOGRAPHY/Advanced Encryption Standard (AES).md",
     "CRYPTOGRAPHY/Output Feedback (OFB).md",
     "test.drawio.svg",
     "CRYPTOGRAPHY/test(1).drawio",
     "CRYPTOGRAPHY/Electronic Code Book (ECB).md",
     "CRYPTOGRAPHY/Cipher Feedback Mode.md",
     "CRYPTOGRAPHY/Digital Signature Scheme.md",
-    "CRYPTOGRAPHY/Elgamal Cryptosystem.md",
     "CRYPTOGRAPHY/Untitled Diagram.svg",
     "CRYPTOGRAPHY/Data Encryption Standard (DES).md",
     "2024-01-03.md",
@@ -179,7 +182,6 @@
     "Untitled.canvas",
     "Untitled 1.canvas",
     "CRYPTOGRAPHY/D.md",
-    "CRYPTOGRAPHY/McEliece Cryptosystem.md",
     "Untitled 1.md",
     "CRYPTOGRAPHY/canva.canvas",
     "CRYPTOGRAPHY",

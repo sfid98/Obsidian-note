@@ -1,6 +1,6 @@
 [[Rsa System]]
 [[Diffie Hellman Key Exchange]]
-[[Elgamal Cryptosystem]]
+[[Elgamal Scheme]]
 [[Electronic Code Book (ECB)]]
 [[Cipher Block Chain]]
 [[Output Feedback (OFB)]]
