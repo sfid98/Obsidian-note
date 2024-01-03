@@ -25,6 +25,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "CRYPTOGRAPHY/Block Ciphers.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "63dd80fa6731f9cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "CRYPTOGRAPHY/Program.md",
                 "mode": "source",
                 "source": false
@@ -44,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -171,11 +183,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0cd860a21e9fc63a",
+  "active": "63dd80fa6731f9cb",
   "lastOpenFiles": [
+    "CRYPTOGRAPHY/Block Ciphers.md",
     "CRYPTOGRAPHY/Advanced Encryption Standard (AES).md",
+    "CRYPTOGRAPHY/Cipher Feedback Mode.md",
+    "CRYPTOGRAPHY/Output Feedback (OFB).md",
+    "CRYPTOGRAPHY/Electronic Code Book (ECB).md",
+    "CRYPTOGRAPHY/Cipher Block Chain.md",
+    "CRYPTOGRAPHY/D.md",
     "CRYPTOGRAPHY/Program.md",
-    "Untitled.md",
     "CRYPTOGRAPHY/McEliece Cryptosystem.md",
     "CRYPTOGRAPHY/Chinese Remainder Theorem.md",
     "CRYPTOGRAPHY/Data Encryption Standard.md",

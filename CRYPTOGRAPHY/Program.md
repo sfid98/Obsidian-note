@@ -1,7 +1,7 @@
 [[Rsa System]]
 [[Diffie Hellman Key Exchange]]
 [[Elgamal Cryptosystem]]
-[[Digital Signature Scheme]]
-[[Data Encryption Standard]]
+[[Block Ciphers]]
 [[Advanced Encryption Standard (AES)]]
 [[McEliece Cryptosystem]]
+
