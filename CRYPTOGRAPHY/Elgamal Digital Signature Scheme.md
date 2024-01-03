@@ -1,5 +1,5 @@
 This scheme works in the framework of the [[Elgamal Scheme]].
-Assume that the user **A** want to sign some messages, **A** finds a prime $p$ and a generator $\alpha$ of the group $Z_p\backslash\{0\}$, also he choose a private number $a$ in $a \in \{0,.., p-1\}$ 
+Assume that the user **A** want to sign some messages, **A** finds a prime $p$ and a generator $\alpha$ of the group $Z_p\backslash\{0\}$, also he choose a private number $a$ in $a \in \{1,.., p-2\}$ 
 The public key will be 
 $$
 (p,g,\beta= \alpha^a)
@@ -16,6 +16,12 @@ The digital signature for A will be $(\gamma, \delta)$
 To verify the signature **B** has to compute $v_1 = \beta^\gamma \cdot\gamma^\delta \text{ and  } v_2 =\alpha^x \text{mod p}$ 
 
 The signature is verified only if $v_1 = v_2$
+$$
+\begin{aligned}
+k\cdot(x-a\gamma)k^{-1} = x - a\gamma \text{ mod } p-1 \\
+\text{thus } \alpha^{k\cdot(x-a\gamma)k^{-1}} = \alpha^{x - a\gamma} \text{ mod } p 
+\end{aligned}
+$$
 $$
 a^{a\cdot \gamma}\cdot \alpha^{k\cdot(x-a\gamma)k^{-1}} = \alpha^x \text{ mod p}
 $$
@@ -46,4 +52,4 @@ Now, assume that k is utilized more than once.
 it follows
 - $α^{x_1 −x_2} = γ_1^{δ_1 −δ_2} = (α^k )^{δ_1 −δ_2}$ .
 Hence, 
-- $x_1 − x_2 = k(δ_1 − δ_2 ) \text{ mod p − 1}$ and thus, we can get k if $δ_1 − δ_2$ is invertible mod $p − 1$.
+- $x_1 − x_2 = k(δ_1 − δ_2 ) \text{ mod p − 1}$ and thus, we can get $k$  if $δ_1 − δ_2$ is invertible mod $p − 1$.

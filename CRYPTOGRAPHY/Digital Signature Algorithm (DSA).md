@@ -14,7 +14,7 @@ Let $\alpha$ be a generator of the subgroup of order $q$  of $Z_p \backslash \{0
 - Message to sign: $x$ , which is an arbitrary binary sequence.
 - Signature process: A chooses a random $k \in Z_q \backslash \{0\}$ and signs x using $(\gamma, \delta)$ where
 	$γ = (\alpha^k) \text{ mod p } \text{ mod q }$
-	$\gamma = (SHA1(x) + a\gamma)k^{−1}\text{ mod q }$
+	$\delta = (SHA1(x) + a\gamma)k^{−1}\text{ mod q }$
 	if $\delta = 0$ we start again with a different random $k$.
 ##### Remark
 - $SHA1(x)$ can be viewed as an element of $Z_q$ because it is a number of 160 bits.

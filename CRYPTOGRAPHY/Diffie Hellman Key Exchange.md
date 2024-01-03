@@ -4,6 +4,8 @@ They both choose a number such that $1 \leq a,b \leq p - 2$
 
 The user A computes
 - $\alpha = g^a \text{ mod p}$
+
+
 The user B computes
 - $\beta = g^b \text{ mod p}$
 
