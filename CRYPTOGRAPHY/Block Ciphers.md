@@ -3,5 +3,5 @@
 [[Cipher Block Chain]]
 [[Output Feedback (OFB)]]
 [[Cipher Feedback Mode]]
-[[Data Encryption Standard]]
+[[Data Encryption Standard (DES)]]
 [[Advanced Encryption Standard (AES)]]

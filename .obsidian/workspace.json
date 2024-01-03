@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bb3696005be1d427",
+        "id": "c31e65ea17b8666b",
         "type": "tabs",
         "children": [
           {
-            "id": "03c4b7e1777ad8ad",
+            "id": "bf766263c7a95ba9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,45 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "d51ae9b2eb4b9cb5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CRYPTOGRAPHY/Block Ciphers.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "63dd80fa6731f9cb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CRYPTOGRAPHY/Program.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2a8b54d4c37d7970",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CRYPTOGRAPHY/Program.md",
-                "mode": "source",
-                "source": true
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -70,22 +33,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0cd860a21e9fc63a",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical"
-              }
-            }
-          },
-          {
             "id": "48cacff2f6931160",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Data",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -101,12 +54,32 @@
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "bc3e71f1060f736f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "da14400598734346",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "f748020f56d38df6",
@@ -122,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CRYPTOGRAPHY/Program.md",
+                "file": "CRYPTOGRAPHY/Rsa System.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CRYPTOGRAPHY/Program.md",
+                "file": "CRYPTOGRAPHY/Rsa System.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,11 +135,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CRYPTOGRAPHY/Program.md"
+                "file": "CRYPTOGRAPHY/Rsa System.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -183,27 +157,32 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "63dd80fa6731f9cb",
+  "active": "bf766263c7a95ba9",
   "lastOpenFiles": [
+    "CRYPTOGRAPHY/Program.md",
+    "CRYPTOGRAPHY/Rsa System.md",
+    "CRYPTOGRAPHY/Cipher Block Chain.md",
+    "CRYPTOGRAPHY/Chinese Remainder Theorem.md",
     "CRYPTOGRAPHY/Block Ciphers.md",
     "CRYPTOGRAPHY/Advanced Encryption Standard (AES).md",
-    "CRYPTOGRAPHY/Cipher Feedback Mode.md",
     "CRYPTOGRAPHY/Output Feedback (OFB).md",
+    "test.drawio.svg",
+    "CRYPTOGRAPHY/test(1).drawio",
     "CRYPTOGRAPHY/Electronic Code Book (ECB).md",
-    "CRYPTOGRAPHY/Cipher Block Chain.md",
-    "CRYPTOGRAPHY/D.md",
-    "CRYPTOGRAPHY/Program.md",
-    "CRYPTOGRAPHY/McEliece Cryptosystem.md",
-    "CRYPTOGRAPHY/Chinese Remainder Theorem.md",
-    "CRYPTOGRAPHY/Data Encryption Standard.md",
+    "CRYPTOGRAPHY/Cipher Feedback Mode.md",
+    "CRYPTOGRAPHY/Diffie Hellman Key Exchange.md",
     "CRYPTOGRAPHY/Digital Signature Scheme.md",
     "CRYPTOGRAPHY/Elgamal Cryptosystem.md",
-    "CRYPTOGRAPHY/Diffie Hellman Key Exchange.md",
-    "Untitled 1.md",
-    "CRYPTOGRAPHY/Rsa System.md",
-    "CRYPTOGRAPHY/canva.canvas",
+    "CRYPTOGRAPHY/Untitled Diagram.svg",
+    "CRYPTOGRAPHY/Data Encryption Standard (DES).md",
     "2024-01-03.md",
     "README.md",
+    "Untitled.canvas",
+    "Untitled 1.canvas",
+    "CRYPTOGRAPHY/D.md",
+    "CRYPTOGRAPHY/McEliece Cryptosystem.md",
+    "Untitled 1.md",
+    "CRYPTOGRAPHY/canva.canvas",
     "CRYPTOGRAPHY",
     "ciso.md"
   ]
