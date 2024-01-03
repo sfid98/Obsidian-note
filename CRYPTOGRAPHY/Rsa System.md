@@ -13,6 +13,7 @@ The message can be decrypted by the receiver using
 - $c^d\equiv m^{e\cdot d} \text{ mod n} \equiv m \text{ mod n}$
 The decryption work for a weak form of the Euler's theorem
 
+#### Theorem
+Let $n=p\cdot q$ , $p,q$ two primes. Then $m^{1 + k\cdot \phi(n)} \equiv m \text{ mod n}$ for $m < n$
 
-
-
+Proof.
