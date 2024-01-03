@@ -52,9 +52,21 @@
               "type": "graph",
               "state": {}
             }
+          },
+          {
+            "id": "34ca09ac2bc5bc97",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CRYPTOGRAPHY/Digital Signature Algorithm (DSA).md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -191,14 +203,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5063b86d53eeddcd",
+  "active": "34ca09ac2bc5bc97",
   "lastOpenFiles": [
-    "CRYPTOGRAPHY/Program.md",
-    "CRYPTOGRAPHY/Elgamal Digital Signature Scheme.md",
-    "CRYPTOGRAPHY/Digital Signature Algorithm (DSA).md",
-    "CRYPTOGRAPHY/Theorems.md",
-    "CRYPTOGRAPHY/Elgamal Scheme.md",
+    "CRYPTOGRAPHY/Data Encryption Standard (DES).md",
     "CRYPTOGRAPHY/Diffie Hellman Key Exchange.md",
+    "CRYPTOGRAPHY/Program.md",
+    "CRYPTOGRAPHY/Theorems.md",
+    "CRYPTOGRAPHY/Digital Signature Algorithm (DSA).md",
+    "CRYPTOGRAPHY/Elgamal Digital Signature Scheme.md",
+    "CRYPTOGRAPHY/Elgamal Scheme.md",
     "CRYPTOGRAPHY/Chinese Remainder Theorem.md",
     "CRYPTOGRAPHY/RSA Digital signature scheme.md",
     "CRYPTOGRAPHY/Rsa System.md",
@@ -222,7 +235,6 @@
     "CRYPTOGRAPHY/test(1).drawio",
     "CRYPTOGRAPHY/Cipher Feedback Mode.md",
     "CRYPTOGRAPHY/Untitled Diagram.svg",
-    "CRYPTOGRAPHY/Data Encryption Standard (DES).md",
     "2024-01-03.md",
     "README.md",
     "CRYPTOGRAPHY/D.md",

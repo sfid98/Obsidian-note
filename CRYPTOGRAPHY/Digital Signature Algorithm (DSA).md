@@ -32,4 +32,5 @@ Indeed,
 	$α^{e_1} β^{e2} = α^{(SHA1(x)+aγ)δ^{-1}} = α^k \text{ mod p}$
 hence,
 	$α^{e_1} β^{e_2} \text{mod q} = γ$.
+
 	
