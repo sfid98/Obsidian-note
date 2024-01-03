@@ -15,7 +15,10 @@ B calculate
 
 So they both obtained the same key that can be used for the symmetric exchange
 
+If a cryptanalyst knows $α$ and $β$ he cannot deduce a from $α = g^a$ or $b$
+from $β = g^b$ , thus he does not have the ability to compute the agreed
+upon secret $k = g^{ab}$ .
+Indeed, by taking $p$ sufficiently large the computational time of solving this logarithm problem will be prohibitively large!
 
-
-
+The scheme is not authenticated so this protocol is vulnerable to a Man in the middle attack
 
