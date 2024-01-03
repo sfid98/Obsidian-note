@@ -27,34 +27,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CRYPTOGRAPHY/Digital Signature Algorithm (DSA).md",
+                "file": "CRYPTOGRAPHY/Output Feedback (OFB).md",
                 "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1e4d41cbf164e58e",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "4d6f83c767139908",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CRYPTOGRAPHY/RSA Digital signature scheme.md",
-                "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -129,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CRYPTOGRAPHY/RSA Digital signature scheme.md",
+                "file": "CRYPTOGRAPHY/Output Feedback (OFB).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CRYPTOGRAPHY/RSA Digital signature scheme.md",
+                "file": "CRYPTOGRAPHY/Output Feedback (OFB).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CRYPTOGRAPHY/RSA Digital signature scheme.md"
+                "file": "CRYPTOGRAPHY/Output Feedback (OFB).md"
               }
             }
           }
@@ -191,29 +171,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4d6f83c767139908",
+  "active": "d756fa682eee8071",
   "lastOpenFiles": [
     "CRYPTOGRAPHY/Program.md",
+    "CRYPTOGRAPHY/Digital Signature Algorithm (DSA).md",
+    "CRYPTOGRAPHY/images/2024-01-03_19-53.png",
+    "CRYPTOGRAPHY/images/2024-01-03_19-53_2.png",
+    "CRYPTOGRAPHY/images",
+    "CRYPTOGRAPHY/images/2024-01-03_19-53_1.png",
+    "CRYPTOGRAPHY/Electronic Code Book (ECB).md",
+    "CRYPTOGRAPHY/images/output_feedback_mode.png",
+    "CRYPTOGRAPHY/Diffie Hellman Key Exchange.md",
+    "CRYPTOGRAPHY/Advanced Encryption Standard (AES).md",
+    "CRYPTOGRAPHY/Block Ciphers.md",
     "CRYPTOGRAPHY/RSA Digital signature scheme.md",
     "CRYPTOGRAPHY/Rsa System.md",
     "CRYPTOGRAPHY/Untitled.canvas",
-    "CRYPTOGRAPHY/Diffie Hellman Key Exchange.md",
     "Untitled 1.canvas",
-    "CRYPTOGRAPHY/Digital Signature Algorithm (DSA).md",
     "CRYPTOGRAPHY/Elgamal Digital Signature Scheme.md",
     "CRYPTOGRAPHY/Elgamal Scheme.md",
-    "CRYPTOGRAPHY/Advanced Encryption Standard (AES).md",
     "Untitled.canvas",
     "test(1).drawio.md",
     "Network Security",
     "CRYPTOGRAPHY/McEliece Cryptosystem.md",
     "CRYPTOGRAPHY/Cipher Block Chain.md",
     "CRYPTOGRAPHY/Chinese Remainder Theorem.md",
-    "CRYPTOGRAPHY/Block Ciphers.md",
     "CRYPTOGRAPHY/Output Feedback (OFB).md",
     "test.drawio.svg",
     "CRYPTOGRAPHY/test(1).drawio",
-    "CRYPTOGRAPHY/Electronic Code Book (ECB).md",
     "CRYPTOGRAPHY/Cipher Feedback Mode.md",
     "CRYPTOGRAPHY/Untitled Diagram.svg",
     "CRYPTOGRAPHY/Data Encryption Standard (DES).md",

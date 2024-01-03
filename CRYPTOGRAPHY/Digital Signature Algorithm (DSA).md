@@ -1,6 +1,6 @@
 DSA is a federal information processing standard for digital signatures.
 
-The three principal differences with respect to the ElGamal digital signature algorithm are the following.
+The three principal differences with respect to the [[Elgamal Digital Signature Scheme]] are the following.
 - The use of a hash function.
 - Computations performed in a subgroup of $Zp \backslash \{0\}$  so that they are faster
 - a new parameter q in the public key and a new meaning for $\alpha$ and $a$.
