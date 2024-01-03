@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bf766263c7a95ba9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CRYPTOGRAPHY/Elgamal Digital Signature Scheme.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "1be9c3350cf37f7a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CRYPTOGRAPHY/Elgamal Scheme.md",
+                "file": "CRYPTOGRAPHY/Digital Signature Algorithm (DSA).md",
                 "mode": "source",
                 "source": false
               }
@@ -50,7 +38,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Data",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CRYPTOGRAPHY/Elgamal Digital Signature Scheme.md",
+                "file": "CRYPTOGRAPHY/Digital Signature Algorithm (DSA).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CRYPTOGRAPHY/Elgamal Digital Signature Scheme.md",
+                "file": "CRYPTOGRAPHY/Digital Signature Algorithm (DSA).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CRYPTOGRAPHY/Elgamal Digital Signature Scheme.md"
+                "file": "CRYPTOGRAPHY/Digital Signature Algorithm (DSA).md"
               }
             }
           }
@@ -168,11 +156,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bf766263c7a95ba9",
+  "active": "1be9c3350cf37f7a",
   "lastOpenFiles": [
-    "CRYPTOGRAPHY/Elgamal Scheme.md",
-    "CRYPTOGRAPHY/Elgamal Digital Signature Scheme.md",
     "CRYPTOGRAPHY/Program.md",
+    "CRYPTOGRAPHY/Elgamal Scheme.md",
+    "Untitled.canvas",
+    "test(1).drawio.md",
+    "CRYPTOGRAPHY/Digital Signature Algorithm (DSA).md",
+    "CRYPTOGRAPHY/Elgamal Digital Signature Scheme.md",
     "Network Security",
     "CRYPTOGRAPHY/Diffie Hellman Key Exchange.md",
     "CRYPTOGRAPHY/Advanced Encryption Standard (AES).md",
@@ -186,12 +177,10 @@
     "CRYPTOGRAPHY/test(1).drawio",
     "CRYPTOGRAPHY/Electronic Code Book (ECB).md",
     "CRYPTOGRAPHY/Cipher Feedback Mode.md",
-    "CRYPTOGRAPHY/Digital Signature Scheme.md",
     "CRYPTOGRAPHY/Untitled Diagram.svg",
     "CRYPTOGRAPHY/Data Encryption Standard (DES).md",
     "2024-01-03.md",
     "README.md",
-    "Untitled.canvas",
     "Untitled 1.canvas",
     "CRYPTOGRAPHY/D.md",
     "Untitled 1.md",
