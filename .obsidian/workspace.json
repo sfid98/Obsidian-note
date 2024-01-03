@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CRYPTOGRAPHY/Rsa System.md",
-                "mode": "preview",
+                "file": "CRYPTOGRAPHY/Diffie Hellman Key Exchange.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "f748020f56d38df6",
@@ -95,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CRYPTOGRAPHY/Rsa System.md",
+                "file": "CRYPTOGRAPHY/Diffie Hellman Key Exchange.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CRYPTOGRAPHY/Rsa System.md",
+                "file": "CRYPTOGRAPHY/Diffie Hellman Key Exchange.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CRYPTOGRAPHY/Rsa System.md"
+                "file": "CRYPTOGRAPHY/Diffie Hellman Key Exchange.md"
               }
             }
           }
