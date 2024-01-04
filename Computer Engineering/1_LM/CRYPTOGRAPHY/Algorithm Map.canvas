@@ -12,7 +12,10 @@
 		{"id":"913f2669f8da955d","type":"text","text":"DIGITAL SIGNATURE ALGORITHM","x":-56,"y":-280,"width":250,"height":60},
 		{"id":"138865e3537a45ad","type":"text","text":"[[RSA Digital signature scheme]]","x":-336,"y":-120,"width":250,"height":60},
 		{"id":"7ffd01418b920867","type":"text","text":"[[Elgamal Digital Signature Scheme]]","x":-56,"y":-120,"width":250,"height":60},
-		{"id":"0c6be422d115e469","type":"text","text":"[[Digital Signature Algorithm (DSA)]]","x":224,"y":-120,"width":250,"height":60}
+		{"id":"0c6be422d115e469","type":"text","text":"[[Digital Signature Algorithm (DSA)]]","x":224,"y":-120,"width":250,"height":60},
+		{"id":"049ba139054148d4","x":-1195,"y":0,"width":220,"height":50,"type":"text","text":"POST QUANTUM CRYPTOSYSTEM"},
+		{"id":"8ea735f7409bcaec","x":-1040,"y":140,"width":250,"height":60,"type":"text","text":"[[Niederreiter cryptosystem]]"},
+		{"id":"4b07f4f4480d9f46","x":-1400,"y":140,"width":250,"height":60,"type":"text","text":"[[MC ELIECE CRYPTOSYSTEM]]"}
 	],
 	"edges":[
 		{"id":"5760ea3855532f4f","fromNode":"913f2669f8da955d","fromSide":"bottom","toNode":"138865e3537a45ad","toSide":"top"},
@@ -23,6 +26,9 @@
 		{"id":"6c21aea3e0d849b7","fromNode":"e4ce15da0b5b4f02","fromSide":"bottom","toNode":"d8e319fe4f9bc2a5","toSide":"top"},
 		{"id":"f6f8a07e3afda5a5","fromNode":"bf8792f9a62d570b","fromSide":"bottom","toNode":"01209eab128f273f","toSide":"top"},
 		{"id":"d09b54605a3b3de4","fromNode":"bf8792f9a62d570b","fromSide":"bottom","toNode":"b13e5cfedc99c7c8","toSide":"top"},
-		{"id":"b849eeb2320660ad","fromNode":"6168c55dd97a38e4","fromSide":"bottom","toNode":"bf8792f9a62d570b","toSide":"top"}
+		{"id":"b849eeb2320660ad","fromNode":"6168c55dd97a38e4","fromSide":"bottom","toNode":"bf8792f9a62d570b","toSide":"top"},
+		{"id":"a39687351d8465e6","fromNode":"049ba139054148d4","fromSide":"right","toNode":"eb28273394740295","toSide":"left"},
+		{"id":"636cefdd48e70210","fromNode":"049ba139054148d4","fromSide":"bottom","toNode":"4b07f4f4480d9f46","toSide":"top"},
+		{"id":"d9f6c05fddf46b00","fromNode":"049ba139054148d4","fromSide":"bottom","toNode":"8ea735f7409bcaec","toSide":"top"}
 	]
 }

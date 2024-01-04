@@ -30,28 +30,74 @@
               "state": {
                 "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Algorithm Map.canvas",
                 "viewState": {
-                  "x": 23.41370945268306,
-                  "y": -45.13184225381582,
-                  "zoom": -0.7
+                  "x": -251.96786330996537,
+                  "y": 207.4373070282394,
+                  "zoom": -1.3387785823146496
                 }
               },
               "pinned": true
             }
           },
           {
-            "id": "6bb8b1dbf36393a1",
+            "id": "cf65278307e0c716",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Advanced Encryption Standard (AES).md",
+                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Permutation Matrix.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7486c80d5cd0daac",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/MC ELIECE CRYPTOSYSTEM.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "37cb65f9395096b4",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "7ec591afb289cdd1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/MC ELIECE CRYPTOSYSTEM.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a2451c339d19ac6d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Niederreiter cryptosystem.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -126,7 +172,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Advanced Encryption Standard (AES).md",
+                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Niederreiter cryptosystem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +189,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Advanced Encryption Standard (AES).md",
+                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Niederreiter cryptosystem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +212,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Advanced Encryption Standard (AES).md"
+                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Niederreiter cryptosystem.md"
               }
             }
           }
@@ -188,16 +234,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6bb8b1dbf36393a1",
+  "active": "a2451c339d19ac6d",
   "lastOpenFiles": [
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Algorithm Map.canvas",
+    "Computer Engineering/1_LM/CRYPTOGRAPHY/MC ELIECE CRYPTOSYSTEM.md",
+    "Computer Engineering/1_LM/CRYPTOGRAPHY/Program.md",
+    "Computer Engineering/1_LM/CRYPTOGRAPHY/Permutation Matrix.md",
+    "Computer Engineering/1_LM/CRYPTOGRAPHY/Niederreiter cryptosystem.md",
+    "Computer Engineering/1_LM/CRYPTOGRAPHY/Diffie Hellman Key Exchange.md",
+    "Computer Engineering/1_LM/CRYPTOGRAPHY/Generator Matrix.md",
+    "Computer Engineering/1_LM/CRYPTOGRAPHY/Digital Signature Algorithm (DSA).md",
+    "Computer Engineering/1_LM/CRYPTOGRAPHY/Elgamal Digital Signature Scheme.md",
+    "Computer Engineering/1_LM/CRYPTOGRAPHY/Elgamal Scheme.md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Advanced Encryption Standard (AES).md",
+    "Untitled.canvas",
     "SlideAES.pdf",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/RSA Digital signature scheme.md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/SlideAES.pdf",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Data Encryption Standard (DES).md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/RSA Digital signature scheme.html",
-    "Computer Engineering/1_LM/CRYPTOGRAPHY/Program.md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/images/des9.png",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/images/des8.png",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/images/des7.png",
@@ -210,10 +265,6 @@
     "Computer Engineering/1_LM/CRYPTOGRAPHY/des1.png",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Chinese Remainder Theorem.md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Theorems.md",
-    "Computer Engineering/1_LM/CRYPTOGRAPHY/Digital Signature Algorithm (DSA).md",
-    "Computer Engineering/1_LM/CRYPTOGRAPHY/Elgamal Digital Signature Scheme.md",
-    "Computer Engineering/1_LM/CRYPTOGRAPHY/Elgamal Scheme.md",
-    "Computer Engineering/1_LM/CRYPTOGRAPHY/Diffie Hellman Key Exchange.md",
     "Untitled.md",
     "toc.js",
     "Computer Engineering/1_LM",
@@ -224,7 +275,6 @@
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Electronic Code Book (ECB).md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Block Ciphers.md",
     "Untitled 1.canvas",
-    "Untitled.canvas",
     "test(1).drawio.md",
     "Computer Engineering/1_LM/Network Security",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/McEliece Cryptosystem.md",
@@ -233,10 +283,7 @@
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Cipher Feedback Mode.md",
     "2024-01-03.md",
     "README.md",
-    "CRYPTOGRAPHY/D.md",
-    "Untitled 1.md",
     "CRYPTOGRAPHY/canva.canvas",
-    "Computer Engineering/1_LM/CRYPTOGRAPHY",
-    "ciso.md"
+    "Computer Engineering/1_LM/CRYPTOGRAPHY"
   ]
 }
