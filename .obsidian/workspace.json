@@ -30,7 +30,7 @@
               "state": {
                 "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Algorithm Map.canvas",
                 "viewState": {
-                  "x": -96.22086075274393,
+                  "x": 116.79585805903423,
                   "y": 319.46436550002284,
                   "zoom": -1.16168979227543
                 }
@@ -97,9 +97,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7817e7ce41ad7448",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Elgamal Scheme.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "32849e9ce04532f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Block Ciphers.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d3fe85afc1a20776",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Block Ciphers.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -174,7 +210,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Rsa System.md",
+                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Block Ciphers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -191,7 +227,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Rsa System.md",
+                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Block Ciphers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -214,7 +250,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Rsa System.md"
+                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Block Ciphers.md"
               }
             }
           }
@@ -236,14 +272,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ecf139885e3a0cb4",
+  "active": "d3fe85afc1a20776",
   "lastOpenFiles": [
+    "Untitled.canvas",
+    "Computer Engineering/1_LM/CRYPTOGRAPHY/Block Ciphers.md",
+    "Computer Engineering/1_LM/CRYPTOGRAPHY/Program.md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Algorithm Map.canvas",
+    "Computer Engineering/1_LM/CRYPTOGRAPHY/Elgamal Scheme.md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Fermat Little Theorem.md",
+    "Computer Engineering/1_LM/CRYPTOGRAPHY/Rsa System.md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/RSA Digital signature scheme.md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Theorems.md",
-    "Computer Engineering/1_LM/CRYPTOGRAPHY/Program.md",
-    "Computer Engineering/1_LM/CRYPTOGRAPHY/Rsa System.md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Euler's Theorem.md",
     "Untitled 1.canvas",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Generator Matrix.md",
@@ -255,19 +294,16 @@
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Standard array.md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Sindrome.md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/DUAL CODES.md",
-    "Parity check matrix.md",
+    "Computer Engineering/1_LM/CRYPTOGRAPHY/Parity check matrix.md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/MC ELIECE CRYPTOSYSTEM.md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Standard array decoding algorithm.md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/McEliece Cryptosystem.md",
-    "Sindrome decoding.md",
+    "Computer Engineering/1_LM/CRYPTOGRAPHY/Sindrome decoding.md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Sindrome decoding algorithm.md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/images/2024-01-04_16-08.png",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Niederreiter cryptosystem.md",
-    "ortogonal vector.md",
-    "Computer Engineering/1_LM/CRYPTOGRAPHY/Permutation Matrix.md",
-    "Computer Engineering/1_LM/CRYPTOGRAPHY/Diffie Hellman Key Exchange.md",
-    "Untitled.canvas",
-    "SlideAES.pdf",
+    "Computer Engineering/1_LM/CRYPTOGRAPHY/ortogonal vector.md",
+    "Computer Engineering/1_LM/CRYPTOGRAPHY/SlideAES 1.pdf",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/SlideAES.pdf",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/RSA Digital signature scheme.html",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/images/des9.png",
