@@ -30,9 +30,9 @@
               "state": {
                 "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Algorithm Map.canvas",
                 "viewState": {
-                  "x": 1192.7308939117881,
-                  "y": 320.52207826239635,
-                  "zoom": -1.16168979227543
+                  "x": -817.6977889649827,
+                  "y": 1300.556869084709,
+                  "zoom": -1.207156052390733
                 }
               },
               "pinned": true
@@ -77,85 +77,27 @@
             }
           },
           {
-            "id": "ffa9867fee01f502",
+            "id": "83370f8a2228a414",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "4b6d060e0d72e7ea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diffusion.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4039a15473a9d305",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Modes of Operation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "400099cbc048ba9a",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Algorithm Map.canvas",
-                "viewState": {
-                  "x": 1136,
-                  "y": 260,
-                  "zoom": 0
-                }
-              }
-            }
-          },
-          {
-            "id": "447bee4828583d00",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Algorithm Map.canvas",
-                "viewState": {
-                  "x": 1445,
-                  "y": 260,
-                  "zoom": 0
-                }
-              }
-            }
-          },
-          {
-            "id": "52bbefc292fc8b4b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Modes of Operation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7c046fe414f3e642",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Cipher Feedback Mode.md",
+                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Error correcting codes.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -230,6 +172,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Error correcting codes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -246,6 +189,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Error correcting codes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -267,7 +211,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Error correcting codes.md"
+              }
             }
           }
         ],
@@ -288,23 +234,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "da14400598734346",
+  "active": "4b6d060e0d72e7ea",
   "lastOpenFiles": [
+    "Computer Engineering/1_LM/CRYPTOGRAPHY/Hamming weight.md",
+    "Confusion.md",
+    "Computer Engineering/1_LM/CRYPTOGRAPHY/Block Ciphers.md",
+    "Computer Engineering/1_LM/CRYPTOGRAPHY/Fermat Little Theorem.md",
+    "Computer Engineering/1_LM/CRYPTOGRAPHY/Algorithm Map.canvas",
+    "Computer Engineering/1_LM/CRYPTOGRAPHY/Program.md",
+    "Computer Engineering/1_LM/CRYPTOGRAPHY/Error correcting codes.md",
+    "Computer Engineering/1_LM/CRYPTOGRAPHY/Diffie Hellman Key Exchange.md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Cipher Feedback Mode.md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/images/cfb.png",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Modes of Operation.md",
-    "Computer Engineering/1_LM/CRYPTOGRAPHY/Algorithm Map.canvas",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Output Feedback (OFB).md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Cipher Block Chain.md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/images/cbc.png",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Electronic Code Book (ECB).md",
-    "Computer Engineering/1_LM/CRYPTOGRAPHY/Block Ciphers.md",
-    "Confusion.md",
     "Diffusion.md",
-    "Computer Engineering/1_LM/CRYPTOGRAPHY/Program.md",
     "Untitled.canvas",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Elgamal Scheme.md",
-    "Computer Engineering/1_LM/CRYPTOGRAPHY/Fermat Little Theorem.md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Rsa System.md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/RSA Digital signature scheme.md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Theorems.md",
@@ -313,14 +262,10 @@
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Generator Matrix.md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Generator matrices.md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Equivalent Codes.md",
-    "Computer Engineering/1_LM/CRYPTOGRAPHY/Hamming weight.md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Linear Codes.md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Cosets of a subgroup.md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Standard array.md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Sindrome.md",
-    "Computer Engineering/1_LM/CRYPTOGRAPHY/DUAL CODES.md",
-    "Computer Engineering/1_LM/CRYPTOGRAPHY/Parity check matrix.md",
-    "Computer Engineering/1_LM/CRYPTOGRAPHY/MC ELIECE CRYPTOSYSTEM.md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/images/2024-01-04_16-08.png",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/SlideAES 1.pdf",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/SlideAES.pdf",
