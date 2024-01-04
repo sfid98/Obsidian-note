@@ -30,9 +30,9 @@
               "state": {
                 "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Algorithm Map.canvas",
                 "viewState": {
-                  "x": -16.635745665464864,
-                  "y": 355.9077416927566,
-                  "zoom": -1.603964841564497
+                  "x": -96.22086075274393,
+                  "y": 319.46436550002284,
+                  "zoom": -1.16168979227543
                 }
               },
               "pinned": true
@@ -85,9 +85,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ecf139885e3a0cb4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Rsa System.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -162,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Algorithm Map.canvas",
+                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Rsa System.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +191,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Algorithm Map.canvas",
+                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Rsa System.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,7 +214,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Algorithm Map.canvas"
+                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Rsa System.md"
               }
             }
           }
@@ -224,12 +236,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ec6806485238f259",
+  "active": "ecf139885e3a0cb4",
   "lastOpenFiles": [
+    "Computer Engineering/1_LM/CRYPTOGRAPHY/Algorithm Map.canvas",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Fermat Little Theorem.md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/RSA Digital signature scheme.md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Theorems.md",
-    "Computer Engineering/1_LM/CRYPTOGRAPHY/Algorithm Map.canvas",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Program.md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Rsa System.md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Euler's Theorem.md",

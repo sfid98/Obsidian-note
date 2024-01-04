@@ -1,7 +1,7 @@
 {
 	"nodes":[
 		{"id":"dfa77aed5654d300","type":"text","text":"[[Elgamal Scheme]]","x":-245,"y":110,"width":240,"height":50},
-		{"id":"82b740836219b202","type":"text","text":"[[Rsa System]]","x":-630,"y":110,"width":250,"height":50},
+		{"id":"82b740836219b202","type":"text","text":"[[Rsa System]]","x":-630,"y":110,"width":250,"height":60},
 		{"id":"eb28273394740295","type":"text","text":"Asymmetric Scheme encryption","x":-410,"y":0,"width":220,"height":50},
 		{"id":"d8e319fe4f9bc2a5","type":"text","text":"[[Diffie Hellman Key Exchange]]","x":-425,"y":320,"width":250,"height":60},
 		{"id":"e4ce15da0b5b4f02","type":"text","text":"Key Exchange","x":-425,"y":200,"width":250,"height":60},
