@@ -111,9 +111,57 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f2ad2e0930915cf9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Sindrome.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "afa93affeda12622",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Sindrome decoding algorithm.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "185396df9f383aa3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Standard array decoding algorithm.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a948ced2ee20703b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sindrome decoding.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -188,7 +236,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Standard array.md",
+                "file": "Sindrome decoding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -205,7 +253,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Standard array.md",
+                "file": "Sindrome decoding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -228,7 +276,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Standard array.md"
+                "file": "Sindrome decoding.md"
               }
             }
           }
@@ -250,15 +298,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e761fb704b753cbd",
+  "active": "a948ced2ee20703b",
   "lastOpenFiles": [
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Program.md",
+    "Computer Engineering/1_LM/CRYPTOGRAPHY/Standard array decoding algorithm.md",
+    "Computer Engineering/1_LM/CRYPTOGRAPHY/Standard array.md",
+    "Computer Engineering/1_LM/CRYPTOGRAPHY/Sindrome decoding algorithm.md",
+    "Computer Engineering/1_LM/CRYPTOGRAPHY/Sindrome.md",
+    "Sindrome decoding.md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Algorithm Map.canvas",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/DUAL CODES.md",
-    "Computer Engineering/1_LM/CRYPTOGRAPHY/Standard array.md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Cosets of a subgroup.md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/images/2024-01-04_16-08.png",
-    "Sindrome decoding.md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Niederreiter cryptosystem.md",
     "Parity check matrix.md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/MC ELIECE CRYPTOSYSTEM.md",
@@ -294,8 +345,6 @@
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Rsa System.md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Output Feedback (OFB).md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/images",
-    "Computer Engineering/1_LM/CRYPTOGRAPHY/Electronic Code Book (ECB).md",
-    "Computer Engineering/1_LM/CRYPTOGRAPHY/Block Ciphers.md",
     "Untitled 1.canvas",
     "Computer Engineering/1_LM/Network Security",
     "CRYPTOGRAPHY/test(1).drawio",
