@@ -30,9 +30,9 @@
               "state": {
                 "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Algorithm Map.canvas",
                 "viewState": {
-                  "x": -28.495330181263423,
-                  "y": 77.89721044565891,
-                  "zoom": -0.37424293354942023
+                  "x": 23.41370945268306,
+                  "y": -45.13184225381582,
+                  "zoom": -0.7
                 }
               },
               "pinned": true
@@ -49,9 +49,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6e8c51563cd8ac68",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Data Encryption Standard (DES).md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,8 +122,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 276.5
   },
   "right": {
     "id": "f748020f56d38df6",
@@ -127,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Chinese Remainder Theorem.md",
+                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Data Encryption Standard (DES).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Chinese Remainder Theorem.md",
+                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Data Encryption Standard (DES).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Chinese Remainder Theorem.md"
+                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Data Encryption Standard (DES).md"
               }
             }
           }
@@ -189,12 +200,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3b089d2c46f2d895",
+  "active": "6e8c51563cd8ac68",
   "lastOpenFiles": [
-    "Computer Engineering/1_LM/CRYPTOGRAPHY/Program.md",
+    "Computer Engineering/1_LM/CRYPTOGRAPHY/images/des9.png",
+    "Computer Engineering/1_LM/CRYPTOGRAPHY/images/des8.png",
+    "Computer Engineering/1_LM/CRYPTOGRAPHY/images/des7.png",
+    "Computer Engineering/1_LM/CRYPTOGRAPHY/images/des6.png",
+    "Computer Engineering/1_LM/CRYPTOGRAPHY/images/des5.png",
+    "Computer Engineering/1_LM/CRYPTOGRAPHY/images/des4.png",
+    "Computer Engineering/1_LM/CRYPTOGRAPHY/images/des3.png",
+    "Computer Engineering/1_LM/CRYPTOGRAPHY/images/des2.png",
+    "Computer Engineering/1_LM/CRYPTOGRAPHY/images/des1.png",
+    "Computer Engineering/1_LM/CRYPTOGRAPHY/des1.png",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Algorithm Map.canvas",
-    "Computer Engineering/1_LM/CRYPTOGRAPHY/Theorems.md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Chinese Remainder Theorem.md",
+    "Computer Engineering/1_LM/CRYPTOGRAPHY/Program.md",
+    "Computer Engineering/1_LM/CRYPTOGRAPHY/Theorems.md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Digital Signature Algorithm (DSA).md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Elgamal Digital Signature Scheme.md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Elgamal Scheme.md",
@@ -208,11 +229,8 @@
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Rsa System.md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Output Feedback (OFB).md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/images/2024-01-03_19-53.png",
-    "Computer Engineering/1_LM/CRYPTOGRAPHY/images/2024-01-03_19-53_2.png",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/images",
-    "Computer Engineering/1_LM/CRYPTOGRAPHY/images/2024-01-03_19-53_1.png",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Electronic Code Book (ECB).md",
-    "Computer Engineering/1_LM/CRYPTOGRAPHY/images/output_feedback_mode.png",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Advanced Encryption Standard (AES).md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Block Ciphers.md",
     "Untitled 1.canvas",
@@ -221,10 +239,8 @@
     "Computer Engineering/1_LM/Network Security",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/McEliece Cryptosystem.md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Cipher Block Chain.md",
-    "test.drawio.svg",
     "CRYPTOGRAPHY/test(1).drawio",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Cipher Feedback Mode.md",
-    "CRYPTOGRAPHY/Untitled Diagram.svg",
     "2024-01-03.md",
     "README.md",
     "CRYPTOGRAPHY/D.md",
