@@ -9,9 +9,7 @@ Idea: The signature of a document consists in masquerading the documents with ow
 2. $D$ with signature by Alice $F = D^d  \text{ mod } n ∈ Zn$ .
 3. Digital signature of the document: $(D, F)$ with $F = D^d \text{ mod } n$.
 4. Verification of the signature: if $F^e = D$ is valid.
-	- If $F^{ed}=D^d \equiv F\text{ mod } n$ (from a weak form of [[Theorems#Euler’s Theorem]]) but A is the only one that knows d
-
-
+	- If $F^{ed}=D^d \equiv F\text{ mod } n$ (from a weak form of [[Euler's Theorem]]) but A is the only one that knows d
 
 ### Hack RSA Digital Signature
 
@@ -39,7 +37,7 @@ Alice public key: $(n, e)$, Alice private key: $(p, q, d)$, where $n = pq$ and $
 3. $F = H(D)^d( \text{ mod } n)$ is determined.
 4. Digital signature of the document: $(D, F )$ with $F = H(D)^d ( \text{ mod }  n)$.
 5. Verification of the signature: if $F^e = H(D) \text{ mod } n$ then the signature is valid.
-	in fact, if $F^e = H(D) \mod{ n }$ then $F^{ed} = H(D)^d = F \text{ mod }$ from a weak form of [[Theorems#Euler’s Theorem]] 
+	in fact, if $F^e = H(D) \mod{ n }$ then $F^{ed} = H(D)^d = F \text{ mod }$ from a weak form of [[Euler's Theorem]] 
 	But Alice is the only person that knows d.
 
 If I pretend to be Alice and send $(F^e , F)$ then $(F^e , F )$ is not accepted because $F^e \neq H(F)^e$
