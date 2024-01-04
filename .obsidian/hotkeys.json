@@ -1,0 +1,18 @@
+{
+  "obsidian-latex-suite:latex-suite-box-equation": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "B"
+    }
+  ],
+  "editor:insert-mathblock": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "B"
+    }
+  ]
+}
