@@ -1,0 +1,1 @@
+The influence of the plaintext symbol is spread over many ciphertext symbol with the goal of hiding statistical properties of the plaintext
