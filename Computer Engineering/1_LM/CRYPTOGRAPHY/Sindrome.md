@@ -1,6 +1,6 @@
 
 **Definition**
-Let H be a parity-check matrix for an $(n, k)$-code C over $F_{}q$ . For $x ∈ F_{q}^n$
+Let H be a [[Parity check matrix]] for an $(n, k)$-code C over $F_{}q$ . For $x ∈ F_{q}^n$
 the syndrome $S(x)$ of $x$ is given by the vector of $F_{q}^{n−k}$
 $$S(x) = xH^T$$
 Remark $a ∈ C ⇔ S(a) = 0$.

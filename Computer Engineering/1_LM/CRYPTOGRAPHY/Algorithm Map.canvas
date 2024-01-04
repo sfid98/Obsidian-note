@@ -13,9 +13,21 @@
 		{"id":"138865e3537a45ad","type":"text","text":"[[RSA Digital signature scheme]]","x":-336,"y":-120,"width":250,"height":60},
 		{"id":"7ffd01418b920867","type":"text","text":"[[Elgamal Digital Signature Scheme]]","x":-56,"y":-120,"width":250,"height":60},
 		{"id":"0c6be422d115e469","type":"text","text":"[[Digital Signature Algorithm (DSA)]]","x":224,"y":-120,"width":250,"height":60},
-		{"id":"049ba139054148d4","x":-1195,"y":0,"width":220,"height":50,"type":"text","text":"POST QUANTUM CRYPTOSYSTEM"},
-		{"id":"8ea735f7409bcaec","x":-1040,"y":140,"width":250,"height":60,"type":"text","text":"[[Niederreiter cryptosystem]]"},
-		{"id":"4b07f4f4480d9f46","x":-1400,"y":140,"width":250,"height":60,"type":"text","text":"[[MC ELIECE CRYPTOSYSTEM]]"}
+		{"id":"049ba139054148d4","type":"text","text":"POST QUANTUM CRYPTOSYSTEM","x":-1195,"y":0,"width":220,"height":50},
+		{"id":"8ea735f7409bcaec","type":"text","text":"[[Niederreiter cryptosystem]]","x":-1040,"y":140,"width":250,"height":60},
+		{"id":"4b07f4f4480d9f46","type":"text","text":"[[MC ELIECE CRYPTOSYSTEM]]","x":-1400,"y":140,"width":250,"height":60},
+		{"id":"150cb79856575513","type":"text","text":"[[Linear Codes]]","x":-780,"y":600,"width":250,"height":60},
+		{"id":"b90086b228f609ce","type":"text","text":"[[Hamming weight]]","x":-780,"y":700,"width":250,"height":60},
+		{"id":"6be16a20b0e5cec6","type":"text","text":"[[Hamming weight]]","x":-780,"y":800,"width":250,"height":60},
+		{"id":"905978c933da2736","x":-780,"y":920,"width":250,"height":60,"type":"text","text":"[[Generator Matrix]]"},
+		{"id":"93f33434cfa7327d","type":"text","text":"[[Cosets of a subgroup]]","x":-1029,"y":1430,"width":250,"height":60},
+		{"id":"24884f2335fc29f2","type":"text","text":"[[Standard array]]","x":-1029,"y":1550,"width":250,"height":60},
+		{"id":"4dfaf9ab8b4ae9a7","type":"text","text":"[[Standard array decoding algorithm]]","x":-1029,"y":1690,"width":250,"height":60},
+		{"id":"c47e8ab72ec55d39","x":-780,"y":1040,"width":250,"height":60,"type":"text","text":"[[Equivalent Codes]]"},
+		{"id":"444093ec4c0dd587","type":"text","text":"[[DUAL CODES]]","x":-780,"y":1180,"width":250,"height":60},
+		{"id":"0f94f72adab05286","type":"text","text":"[[Parity check matrix]]","x":-780,"y":1300,"width":250,"height":60},
+		{"id":"c1df7305d26b7652","type":"text","text":"[[Sindrome]]","x":-620,"y":1430,"width":250,"height":60},
+		{"id":"9b25bbbdf5f0367c","type":"text","text":"[[Sindrome decoding algorithm]]","x":-620,"y":1550,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"5760ea3855532f4f","fromNode":"913f2669f8da955d","fromSide":"bottom","toNode":"138865e3537a45ad","toSide":"top"},
@@ -29,6 +41,17 @@
 		{"id":"b849eeb2320660ad","fromNode":"6168c55dd97a38e4","fromSide":"bottom","toNode":"bf8792f9a62d570b","toSide":"top"},
 		{"id":"a39687351d8465e6","fromNode":"049ba139054148d4","fromSide":"right","toNode":"eb28273394740295","toSide":"left"},
 		{"id":"636cefdd48e70210","fromNode":"049ba139054148d4","fromSide":"bottom","toNode":"4b07f4f4480d9f46","toSide":"top"},
-		{"id":"d9f6c05fddf46b00","fromNode":"049ba139054148d4","fromSide":"bottom","toNode":"8ea735f7409bcaec","toSide":"top"}
+		{"id":"d9f6c05fddf46b00","fromNode":"049ba139054148d4","fromSide":"bottom","toNode":"8ea735f7409bcaec","toSide":"top"},
+		{"id":"1ae99e7d50e065ff","fromNode":"150cb79856575513","fromSide":"bottom","toNode":"b90086b228f609ce","toSide":"top"},
+		{"id":"c0716ad46c2d2c4d","fromNode":"b90086b228f609ce","fromSide":"bottom","toNode":"6be16a20b0e5cec6","toSide":"top"},
+		{"id":"daa72e4fedb2357a","fromNode":"6be16a20b0e5cec6","fromSide":"bottom","toNode":"905978c933da2736","toSide":"top"},
+		{"id":"f8dccd4905333ecc","fromNode":"905978c933da2736","fromSide":"bottom","toNode":"c47e8ab72ec55d39","toSide":"top"},
+		{"id":"3c955f61c3641ffa","fromNode":"c47e8ab72ec55d39","fromSide":"bottom","toNode":"444093ec4c0dd587","toSide":"top"},
+		{"id":"6fba281e2fed258d","fromNode":"444093ec4c0dd587","fromSide":"bottom","toNode":"0f94f72adab05286","toSide":"top"},
+		{"id":"e1e5888079a5bcc3","fromNode":"0f94f72adab05286","fromSide":"bottom","toNode":"c1df7305d26b7652","toSide":"top"},
+		{"id":"29eb63d8551969aa","fromNode":"c1df7305d26b7652","fromSide":"bottom","toNode":"9b25bbbdf5f0367c","toSide":"top"},
+		{"id":"c548d2c9edc96b4f","fromNode":"93f33434cfa7327d","fromSide":"bottom","toNode":"24884f2335fc29f2","toSide":"top"},
+		{"id":"1870dc9202213428","fromNode":"24884f2335fc29f2","fromSide":"bottom","toNode":"4dfaf9ab8b4ae9a7","toSide":"top"},
+		{"id":"ae9f9c71196f8d96","fromNode":"93f33434cfa7327d","fromSide":"top","toNode":"150cb79856575513","toSide":"left"}
 	]
 }

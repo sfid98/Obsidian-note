@@ -30,9 +30,9 @@
               "state": {
                 "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Algorithm Map.canvas",
                 "viewState": {
-                  "x": -251.96786330996537,
-                  "y": 207.4373070282394,
-                  "zoom": -1.3387785823146496
+                  "x": -744.3785659110657,
+                  "y": 860.0332763857505,
+                  "zoom": -1.9153036959966023
                 }
               },
               "pinned": true
@@ -53,91 +53,7 @@
             }
           },
           {
-            "id": "a428f65af06718a0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Parity check matrix.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5fb2a8ed50841211",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/DUAL CODES.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "942f00c4007739a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Standard array.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "504cc3c3476b2a80",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/DUAL CODES.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e761fb704b753cbd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Standard array.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f2ad2e0930915cf9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Sindrome.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "afa93affeda12622",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Sindrome decoding algorithm.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "185396df9f383aa3",
+            "id": "cc8a76b9ee60fa1a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -149,19 +65,151 @@
             }
           },
           {
-            "id": "a948ced2ee20703b",
+            "id": "1460377d20d2cb84",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sindrome decoding.md",
+                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Cosets of a subgroup.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3eb40be4d7fd3f31",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Sindrome.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8bbbd54b354f07d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Standard array.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4d0339e21047901d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Sindrome.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c0c6761a2e319311",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Parity check matrix.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cac6c224916dcbad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/DUAL CODES.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7cc96837dcd9ad3f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Sindrome.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "66c79ce0818c5d61",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Cosets of a subgroup.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e06a086a88d81772",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Cosets of a subgroup.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "93b084b1f3c29061",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Equivalent Codes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "161e5499254d34ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Generator Matrix.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "717f608992943c73",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Generator Matrix.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -220,7 +268,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 364.5
   },
   "right": {
     "id": "f748020f56d38df6",
@@ -236,7 +284,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sindrome decoding.md",
+                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Algorithm Map.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -253,7 +301,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sindrome decoding.md",
+                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Algorithm Map.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -276,7 +324,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sindrome decoding.md"
+                "file": "Computer Engineering/1_LM/CRYPTOGRAPHY/Algorithm Map.canvas"
               }
             }
           }
@@ -298,25 +346,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a948ced2ee20703b",
+  "active": "ec6806485238f259",
   "lastOpenFiles": [
-    "Computer Engineering/1_LM/CRYPTOGRAPHY/Program.md",
-    "Computer Engineering/1_LM/CRYPTOGRAPHY/Standard array decoding algorithm.md",
-    "Computer Engineering/1_LM/CRYPTOGRAPHY/Standard array.md",
-    "Computer Engineering/1_LM/CRYPTOGRAPHY/Sindrome decoding algorithm.md",
-    "Computer Engineering/1_LM/CRYPTOGRAPHY/Sindrome.md",
-    "Sindrome decoding.md",
+    "Computer Engineering/1_LM/CRYPTOGRAPHY/Generator Matrix.md",
+    "Computer Engineering/1_LM/CRYPTOGRAPHY/Generator matrices.md",
+    "Computer Engineering/1_LM/CRYPTOGRAPHY/Equivalent Codes.md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Algorithm Map.canvas",
-    "Computer Engineering/1_LM/CRYPTOGRAPHY/DUAL CODES.md",
+    "Computer Engineering/1_LM/CRYPTOGRAPHY/Hamming weight.md",
+    "Computer Engineering/1_LM/CRYPTOGRAPHY/Linear Codes.md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Cosets of a subgroup.md",
-    "Computer Engineering/1_LM/CRYPTOGRAPHY/images/2024-01-04_16-08.png",
-    "Computer Engineering/1_LM/CRYPTOGRAPHY/Niederreiter cryptosystem.md",
+    "Computer Engineering/1_LM/CRYPTOGRAPHY/Standard array.md",
+    "Computer Engineering/1_LM/CRYPTOGRAPHY/Sindrome.md",
+    "Computer Engineering/1_LM/CRYPTOGRAPHY/Program.md",
+    "Computer Engineering/1_LM/CRYPTOGRAPHY/DUAL CODES.md",
     "Parity check matrix.md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/MC ELIECE CRYPTOSYSTEM.md",
+    "Computer Engineering/1_LM/CRYPTOGRAPHY/Standard array decoding algorithm.md",
+    "Computer Engineering/1_LM/CRYPTOGRAPHY/McEliece Cryptosystem.md",
+    "Sindrome decoding.md",
+    "Computer Engineering/1_LM/CRYPTOGRAPHY/Sindrome decoding algorithm.md",
+    "Computer Engineering/1_LM/CRYPTOGRAPHY/images/2024-01-04_16-08.png",
+    "Computer Engineering/1_LM/CRYPTOGRAPHY/Niederreiter cryptosystem.md",
     "ortogonal vector.md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Permutation Matrix.md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Diffie Hellman Key Exchange.md",
-    "Computer Engineering/1_LM/CRYPTOGRAPHY/Generator Matrix.md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Digital Signature Algorithm (DSA).md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Elgamal Digital Signature Scheme.md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/Elgamal Scheme.md",
@@ -325,7 +378,6 @@
     "SlideAES.pdf",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/RSA Digital signature scheme.md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/SlideAES.pdf",
-    "Computer Engineering/1_LM/CRYPTOGRAPHY/Data Encryption Standard (DES).md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/RSA Digital signature scheme.html",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/images/des9.png",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/images/des8.png",
@@ -336,14 +388,9 @@
     "Computer Engineering/1_LM/CRYPTOGRAPHY/images/des3.png",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/images/des2.png",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/images/des1.png",
-    "Computer Engineering/1_LM/CRYPTOGRAPHY/Chinese Remainder Theorem.md",
-    "Computer Engineering/1_LM/CRYPTOGRAPHY/Theorems.md",
-    "Untitled.md",
     "toc.js",
     "Computer Engineering/1_LM",
     "Computer Engineering",
-    "Computer Engineering/1_LM/CRYPTOGRAPHY/Rsa System.md",
-    "Computer Engineering/1_LM/CRYPTOGRAPHY/Output Feedback (OFB).md",
     "Computer Engineering/1_LM/CRYPTOGRAPHY/images",
     "Untitled 1.canvas",
     "Computer Engineering/1_LM/Network Security",
