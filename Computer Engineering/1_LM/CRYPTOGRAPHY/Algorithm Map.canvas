@@ -32,7 +32,8 @@
 		{"id":"991e00b8d3b13aa8","x":1320,"y":230,"width":250,"height":60,"type":"text","text":"[[Output Feedback (OFB)]]"},
 		{"id":"3e009702b97a5062","x":1640,"y":230,"width":250,"height":60,"type":"text","text":"[[Cipher Feedback Mode]]"},
 		{"id":"f967d8f1b8038f8b","x":1217,"y":60,"width":206,"height":70,"type":"text","text":"[[Modes of Operation]]"},
-		{"id":"6168c55dd97a38e4","type":"text","text":"[[Block Ciphers]]","x":301,"y":70,"width":185,"height":60}
+		{"id":"6168c55dd97a38e4","type":"text","text":"[[Block Ciphers]]","x":301,"y":70,"width":185,"height":60},
+		{"id":"d13570fdb610bad2","x":-1150,"y":440,"width":250,"height":60,"type":"text","text":"[[Error correcting codes]]"}
 	],
 	"edges":[
 		{"id":"5760ea3855532f4f","fromNode":"913f2669f8da955d","fromSide":"bottom","toNode":"138865e3537a45ad","toSide":"top"},
@@ -62,6 +63,7 @@
 		{"id":"067b39caeb411364","fromNode":"f967d8f1b8038f8b","fromSide":"bottom","toNode":"991e00b8d3b13aa8","toSide":"top"},
 		{"id":"188f859082a55d95","fromNode":"f967d8f1b8038f8b","fromSide":"bottom","toNode":"3e009702b97a5062","toSide":"top"},
 		{"id":"15eced387d7264d0","fromNode":"6168c55dd97a38e4","fromSide":"bottom","toNode":"bf8792f9a62d570b","toSide":"top"},
-		{"id":"3cb05d831eee1121","fromNode":"6168c55dd97a38e4","fromSide":"right","toNode":"f967d8f1b8038f8b","toSide":"top"}
+		{"id":"3cb05d831eee1121","fromNode":"6168c55dd97a38e4","fromSide":"right","toNode":"f967d8f1b8038f8b","toSide":"top"},
+		{"id":"7c2ff74496ded9f6","fromNode":"d13570fdb610bad2","fromSide":"right","toNode":"150cb79856575513","toSide":"top"}
 	]
 }
