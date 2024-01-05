@@ -1,8 +1,8 @@
 The study of error correcting codes is aimed at increasing the reliability of communication. 
-Error correcting codes are used to correct errors when messages are transmitted through a noisy channel (a telephone line, a satellite communication link, a radio wave,..) which can be subject to any form of interference. The objective of an error correcting code is to encode data adding a certain amount of redundancy to the messages. With this redundancy even if errors occur the original message can be recovered or at least the presence of errors can be detected. 
+Error correcting codes are used to correct errors when messages are transmitted through a noisy channel (a telephone line, a satellite communication link, a radio wave,...) which can be subject to any form of interference. The objective of an error correcting code is to encode data adding a certain amount of redundancy to the messages. With this redundancy even if errors occur the original message can be recovered or at least the presence of errors can be detected. 
 If A is an alphabet of q symbols, then a n-tuple $w = (w_{1} , w_{2} , . . . , w_{N})$ of $A_{n}$ is called a word of length n over A. 
 A word $w = (w_{1} , w_{2} , . . . , w_{N})$ of $A_{n}$ is also written in this way: 
-$$w = w_{1} w_{2} . . . w_{n}$$ 
+$$w = w_{1} w_{2} . . . w_{n}$$
 A code C is a finite set of words defined over the same alphabet A.
 If C is a code, the words of C are called codewords. 
 From now, our alphabet will be $F_{q}$ , the finite field of order q
@@ -10,7 +10,6 @@ From now, our alphabet will be $F_{q}$ , the finite field of order q
 ### Block Codes 
 A q-ary block code of length n containing M codewords over the alphabet $F_{q}$ is a set of $M$ $n$-tuples where each n-tuple takes its components from $F_{q}$. We refer to such a block code as either an $[n, M]$-code or an $(n, M)$-code
 over $F_{q}$ .
-
 ### Hamming Distance
 
 We are going to clarify the concept of a word which is closer to one codeword than to another by introducing a distance function on $F_{q}^n$ called the Hamming distance.
@@ -53,10 +52,9 @@ Let $P(r , c)$ be the probability that $r$ is received given that the codeword $
 
 If $d(r,c) = d$  then $P(r,c)=(1-\mathbf{p})^{n-d}(\mathbf{p}/(q-1))^d$
 
-**Proof**. 
+**Proof**. #proof
 Since $d(r , c) = d$, $n − d$ coordinate positions in c are not altered by the channel and this occurs with the probability $(1 − p)^{n−d}$ as each symbol has probability $1 − p$ of being received correctly.
 In each of the remaining d positions the symbol in c is altered to that in r and the probability of this is $p/(q − 1)$ in each position and therefore our proposition follows.
-
 
 Suppose now that $c_1$ and $c_{2}$ are two codewords, that r is received and that
 $d_1=d(r,c_1)\leq d(r,c_2)=d_2$
@@ -80,15 +78,15 @@ probability that $r$ is received is the codeword at minimum distance from $r$.
 For any element $x ∈ F_{q}^n$ and any integer $r ≥ 0$ the sphere of radius r and center x, denoted by 
 $S(x, r)$ or $S_{x,r}$ is the set:
 $$S(x,r):=\{v\in\mathbb{F}_q^n|d(x,v)\leq r\}.$$
-#### Theorem 1
+#### Theorem 1 #theorem
 
 Let C be an $[n, M]$-code having distance $d = 2e + 1$. Then C can correct up to $e$ errors. If used for error detection only, $C$ can detect up to $2e$ errors.
 
-#### Theorem 2
+#### Theorem 2 #theorem
 
 Let C be a q-ary $[n, M]$-code having distance $d = 2t$. Then $C$ can correct up to $t − 1$ errors. If used for error detection only, C can detect up to $2t − 1$ errors.
 
-**Proof**.
+**Proof**. #proof 
 
 Let $c_{1} , . . . , c_{M}$ be the codewords of C . We first show that for $c_{i} \neq c_{j}$ we have that $S(c_i,t-1)\cap S(c_i,t-1)=\emptyset.$
 By way of contradiction suppose that $\exists x\in S(c_i,t-1)\cap S(c_j,t-1).$
@@ -104,7 +102,7 @@ If at least one and at most $2t − 1$ errors are introduced, then the received 
 
 We summarize both cases by stating the following:
 
-**Theorem**
+#### Theorem 3 #theorem 
 Let C be an $(n, M, d)$-code. Then C can correct up to $\lfloor(d − 1)/2\rfloor$ errors.
 If used for detection only, C can detect up to $d − 1$ errors.
 
@@ -117,11 +115,10 @@ d = 2e + 1 \text{ or }d = 2e + 2
 $$
 
 Consider the case in which d is even.
-**Theorem**
-
+#### Theorem 4 #theorem 
 Let C be a q-ary $[n, M]$-code having distance $d = 2k$, then $C$ can correct up to $k − 1$ errors and simultaneously detect up to $k$ errors.
 
-Proof.
+Proof. #proof 
 By the previous theorem $C$ can correct up to $k − 1$ errors.
 Also, we observe that any pattern of $k$ errors introduced in a codeword $c_{i}$ cannot produce a received word r contained in some sphere $S_{c_{j}}$ of radius $k − 1$.
 
@@ -149,7 +146,7 @@ A sphere of radius $r$ in $F_{q}^n$ contains exactly
 $$\binom n0+\binom n1(q-1)+\binom n2(q-1)^2+\ldots+\binom nr(q-1)^r$$
 words.
 
-**Proof.** 
+**Proof.** #proof 
 Let u be a fixed vector of $F_{q}^n$ . Consider how many vectors v have distance exactly $m ≤ n$ from $u$.
 
 The $m$ positions in which $v$ is to differ from u can be chosen in $\binom nm$ ways and in each of these $m$ positions the entry of $v$ can be chosen in $q − 1$ ways to differ from the corresponding entry of $u$.
@@ -164,7 +161,7 @@ $$\binom n0+\binom n1(q-1)+\binom n2(q-1)^2+\ldots+\binom nr(q-1)^r.$$
 A q-ary $(n, M, d)$-code, where either $d = 2e + 1$ or $d = 2e + 2$, satisfies
 
 $$M(\binom n0+\binom n1(q-1)+\binom n2(q-1)^2+\ldots+\binom ne(q-1)^e)\leq q^n.$$
-**Proof.** 
+**Proof.**  #proof 
 We know that two spheres with center at two different codewords and radius e are disjoint; 
 Hence our proposition follows from the previous lemma.
 
