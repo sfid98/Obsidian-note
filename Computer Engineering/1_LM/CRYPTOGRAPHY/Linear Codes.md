@@ -27,11 +27,10 @@ The integers $n, k, d$ are the parameters of the linear code $C$.
 - [[Hamming weight]]
 - [[Generator Matrix]]
 - [[Equivalent Codes]]
-- [[DUAL CODES]]
 - [[Cosets of a subgroup]]
-- [[Sindrome]]
 - [[Standard array]]
 - [[Standard array decoding algorithm]]
+- [[DUAL CODES]]
+-  [[Parity check matrix]]
+- [[Sindrome]]
 - [[Sindrome decoding]]
-
-

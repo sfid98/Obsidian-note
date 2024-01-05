@@ -13,8 +13,7 @@ $$
 **Why the term parity-check?**
 
 Suppose that $m = (m_{1} , . . . , m_{k})$ is a message k-tuple which we are going to embed in a codeword c of length n.
-Suppose further that the information symbols occur in the first k
-components of c.
+Suppose further that the information symbols occur in the first k components of c.
 Then c has the form $c = (m_{1} . . . m_{k} , x_{1} , . . . , x_{n-k}$).
 
 $∀ 1 ≤ i ≤ n − k$ the components $x_{i}$ are called the check symbols since they provide the necessary redundancy to possibly detect and correct errors.

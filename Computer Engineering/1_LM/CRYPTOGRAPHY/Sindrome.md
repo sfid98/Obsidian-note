@@ -7,7 +7,7 @@ Remark $a ∈ C ⇔ S(a) = 0$.
 
 **Proposition**
 Let H be a parity check matrix for a linear code C . Then, two vectors x and y are in the same coset of C if and only if they have the same syndrome.
-Proof. 
+Proof. #proof  
 
 $$x + C = y + C ⇔ x − y ∈ C ⇔ (x − y )H^T = 0⇔ xH^T = yH^T ⇔S(x ) = S(y)$$
 Hence, there is a one-to-one correspondence between cosets and syndromes.
