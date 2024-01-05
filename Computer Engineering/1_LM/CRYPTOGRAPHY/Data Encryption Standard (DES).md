@@ -94,4 +94,3 @@ $c_{1}' = E_{k}(P_{1}')$, $c_{2}'=E_{k}(P_{2}')$
 What are the possible values for $\Delta c'= c_{1}'\oplus c'_{2}$. The distribution of $\Delta c'$ given $\Delta p$ may reveals some information about the key. After finding several bits we can use bruteforce attack for the rest of the bit to find the key. 
 
 **Anyway DES is resistant to this type of attack and against the LINEAR CYRYPTOANALYSIS ATTACK**
-

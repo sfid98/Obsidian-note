@@ -5,7 +5,7 @@
 - [x] The Discrete Logarithm Problem. The Diffie Hellman key exchange.
 - [x] The ElGamal Cryptosystem.
 - [x] The DSA and its variants.
-- [ ] From DES to AES.
+- [x] From DES to AES.
 - [ ] Elliptic curves and their applications in Cryptography.
 - [ ] Error-correcting Codes. Linear Codes and their applications in
 - [ ] Cryptography: the McEliece cryposystem.

@@ -5,10 +5,10 @@ To implement an error correcting code we need
 
 We assume that our alphabet is the finite field $F_{}q$ of order q and that the
 set of messages that we wish to transmit is $F_{q}^k$ .
-$F_q^k$ is a vector space over $F_{}q$ with $q$ $k$ elements and dimension $k$. We refer
+$F_q^k$ is a vector space over $F_{}q$ with $q^k$ elements and dimension $k$. We refer
 to it as the message space M.
 In order to detect and correct errors we have to add some redundancy
-hence, the k-tuples of $Fq_{}k$ are embedded into n-tuples of $F_{q}^n$ , $n > k$.
+hence, the k-tuples of $Fq^{k}$ are embedded into n-tuples of $F_{q}^n$ , $n > k$.
 Thus our message space is identified with a k-dimensional subspace C of
 $F_{q}^n$.
 
