@@ -1,17 +1,9 @@
 {
 	"nodes":[
-		{"id":"dfa77aed5654d300","type":"text","text":"[[Elgamal Scheme]]","x":-245,"y":110,"width":240,"height":50},
-		{"id":"82b740836219b202","type":"text","text":"[[Rsa System]]","x":-630,"y":110,"width":250,"height":60},
 		{"id":"eb28273394740295","type":"text","text":"Asymmetric Scheme encryption","x":-410,"y":0,"width":220,"height":50},
-		{"id":"d8e319fe4f9bc2a5","type":"text","text":"[[Diffie Hellman Key Exchange]]","x":-425,"y":320,"width":250,"height":60},
-		{"id":"e4ce15da0b5b4f02","type":"text","text":"Key Exchange","x":-425,"y":200,"width":250,"height":60},
 		{"id":"913f2669f8da955d","type":"text","text":"DIGITAL SIGNATURE ALGORITHM","x":-56,"y":-280,"width":250,"height":60},
 		{"id":"138865e3537a45ad","type":"text","text":"[[RSA Digital signature scheme]]","x":-336,"y":-120,"width":250,"height":60},
 		{"id":"7ffd01418b920867","type":"text","text":"[[Elgamal Digital Signature Scheme]]","x":-56,"y":-120,"width":250,"height":60},
-		{"id":"0c6be422d115e469","type":"text","text":"[[Digital Signature Algorithm (DSA)]]","x":224,"y":-120,"width":250,"height":60},
-		{"id":"049ba139054148d4","type":"text","text":"POST QUANTUM CRYPTOSYSTEM","x":-1195,"y":0,"width":220,"height":50},
-		{"id":"8ea735f7409bcaec","type":"text","text":"[[Niederreiter cryptosystem]]","x":-1040,"y":140,"width":250,"height":60},
-		{"id":"4b07f4f4480d9f46","type":"text","text":"[[MC ELIECE CRYPTOSYSTEM]]","x":-1400,"y":140,"width":250,"height":60},
 		{"id":"150cb79856575513","type":"text","text":"[[Linear Codes]]","x":-780,"y":600,"width":250,"height":60},
 		{"id":"b90086b228f609ce","type":"text","text":"[[Hamming weight]]","x":-780,"y":700,"width":250,"height":60},
 		{"id":"6be16a20b0e5cec6","type":"text","text":"[[Hamming weight]]","x":-780,"y":800,"width":250,"height":60},
@@ -34,13 +26,22 @@
 		{"id":"f967d8f1b8038f8b","type":"text","text":"[[Modes of Operation]]","x":1217,"y":60,"width":206,"height":70},
 		{"id":"6168c55dd97a38e4","type":"text","text":"[[Block Ciphers]]","x":301,"y":70,"width":185,"height":60},
 		{"id":"d13570fdb610bad2","type":"text","text":"[[Error correcting codes]]","x":-1150,"y":440,"width":250,"height":60},
-		{"id":"479d017caad12ac7","x":-255,"y":860,"width":250,"height":60,"type":"text","text":"Linear Congruences"},
-		{"id":"621e621d84306e57","x":-255,"y":1040,"width":250,"height":60,"type":"text","text":"[[Chinese Remainder Theorem]]"}
+		{"id":"479d017caad12ac7","type":"text","text":"Linear Congruences","x":-255,"y":860,"width":250,"height":60},
+		{"id":"621e621d84306e57","type":"text","text":"[[Chinese Remainder Theorem]]","x":-255,"y":1040,"width":250,"height":60},
+		{"id":"d8e319fe4f9bc2a5","type":"text","text":"[[Diffie Hellman Key Exchange]]","x":-315,"y":380,"width":250,"height":60},
+		{"id":"e4ce15da0b5b4f02","type":"text","text":"Key Exchange","x":-287,"y":210,"width":195,"height":50},
+		{"id":"82b740836219b202","type":"text","text":"[[Rsa System]]","x":-835,"y":110,"width":250,"height":60},
+		{"id":"dfa77aed5654d300","type":"text","text":"[[Elgamal Scheme]]","x":-65,"y":110,"width":240,"height":50},
+		{"id":"5e94eb85d9eb51ab","type":"text","text":"[[Euler's function]]","x":-960,"y":290,"width":250,"height":60},
+		{"id":"5a0c8b2434282ea6","type":"text","text":"[[Euler's Theorem]]","x":-660,"y":290,"width":250,"height":50},
+		{"id":"c5a49953d7a0763f","type":"text","text":"[[Fermat Little Theorem]]","x":-1279,"y":290,"width":250,"height":60},
+		{"id":"049ba139054148d4","type":"text","text":"POST QUANTUM CRYPTOSYSTEM","x":-1635,"y":0,"width":220,"height":50},
+		{"id":"4b07f4f4480d9f46","type":"text","text":"[[MC ELIECE CRYPTOSYSTEM]]","x":-1840,"y":140,"width":250,"height":60},
+		{"id":"8ea735f7409bcaec","type":"text","text":"[[Niederreiter cryptosystem]]","x":-1480,"y":140,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"5760ea3855532f4f","fromNode":"913f2669f8da955d","fromSide":"bottom","toNode":"138865e3537a45ad","toSide":"top"},
 		{"id":"d7c214bfecd7d2a5","fromNode":"913f2669f8da955d","fromSide":"bottom","toNode":"7ffd01418b920867","toSide":"top"},
-		{"id":"e0d170141821fbd3","fromNode":"913f2669f8da955d","fromSide":"bottom","toNode":"0c6be422d115e469","toSide":"top"},
 		{"id":"22018484d6fffa0c","fromNode":"eb28273394740295","fromSide":"bottom","toNode":"82b740836219b202","toSide":"top"},
 		{"id":"c5596d4dd6275eac","fromNode":"eb28273394740295","fromSide":"bottom","toNode":"dfa77aed5654d300","toSide":"top"},
 		{"id":"6c21aea3e0d849b7","fromNode":"e4ce15da0b5b4f02","fromSide":"bottom","toNode":"d8e319fe4f9bc2a5","toSide":"top"},
@@ -67,6 +68,9 @@
 		{"id":"15eced387d7264d0","fromNode":"6168c55dd97a38e4","fromSide":"bottom","toNode":"bf8792f9a62d570b","toSide":"top"},
 		{"id":"3cb05d831eee1121","fromNode":"6168c55dd97a38e4","fromSide":"right","toNode":"f967d8f1b8038f8b","toSide":"top"},
 		{"id":"7c2ff74496ded9f6","fromNode":"d13570fdb610bad2","fromSide":"right","toNode":"150cb79856575513","toSide":"top"},
-		{"id":"f34eba7300c26f30","fromNode":"479d017caad12ac7","fromSide":"bottom","toNode":"621e621d84306e57","toSide":"top"}
+		{"id":"f34eba7300c26f30","fromNode":"479d017caad12ac7","fromSide":"bottom","toNode":"621e621d84306e57","toSide":"top"},
+		{"id":"e32d872e196b1652","fromNode":"82b740836219b202","fromSide":"bottom","toNode":"5e94eb85d9eb51ab","toSide":"top"},
+		{"id":"c734dc92af2bfc0e","fromNode":"82b740836219b202","fromSide":"bottom","toNode":"5a0c8b2434282ea6","toSide":"top"},
+		{"id":"c991df37b387ccda","fromNode":"82b740836219b202","fromSide":"bottom","toNode":"c5a49953d7a0763f","toSide":"top"}
 	]
 }
