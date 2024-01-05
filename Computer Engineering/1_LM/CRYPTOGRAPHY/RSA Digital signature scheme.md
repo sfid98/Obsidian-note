@@ -40,9 +40,8 @@ Alice public key: $(n, e)$, Alice private key: $(p, q, d)$, where $n = pq$ and $
 	in fact, if $F^e = H(D) \mod{ n }$ then $F^{ed} = H(D)^d = F \text{ mod }$ from a weak form of [[Euler's Theorem]] 
 	But Alice is the only person that knows d.
 
-If I pretend to be Alice and send $(F^e , F)$ then $(F^e , F )$ is not accepted because $F^e \neq H(F)^e$
+If I pretend to be Alice and send $(F^e , F)$ then $(F^e , F )$ is not accepted because $F^e \neq H(F^e)$
 Also, if I send $(D_1 D_2 , F_1 F_2)$ then the signature is not accepted because
-
 
 $$
 F_1 F_2 = H(D_1)^d H(D_2)^d \neq H(D_1 D_2)^d
