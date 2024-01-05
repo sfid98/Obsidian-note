@@ -73,10 +73,10 @@ We pick a random $k'$ and compute $E_{k'}(m_{1})$ if we get $c_{1}$ then $k = k'
 If $k'$ is the complement of the key:
 $$
 \begin{aligned}
-E_{\bar{k}}(m_{1}) = E_{\bar{k'}(\bar{m_{1}})} = E_{k(\bar{m_{1}})} = c_{2}
+E_{{k'}}(m_{1}) = \overline{E_{\bar{k'}}(\overline{m_{1}})} = \overline{E_{k}(\overline{m_{1}})} = \overline{c_{2}}
 \end{aligned}
 $$
-So if we obtain $E_{k'}(m_{1}) = \bar{c_{2}}$ then $k' = \bar{k}$
+So if we obtain $E_{k'}(m_{1}) = \overline{c_{2}}$ then $k' = \bar{k}$
 
 
 
