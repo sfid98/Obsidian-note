@@ -5,16 +5,11 @@
 		{"id":"138865e3537a45ad","type":"text","text":"[[RSA Digital signature scheme]]","x":-336,"y":-120,"width":250,"height":60},
 		{"id":"150cb79856575513","type":"text","text":"[[Linear Codes]]","x":-780,"y":600,"width":250,"height":60},
 		{"id":"b90086b228f609ce","type":"text","text":"[[Hamming weight]]","x":-780,"y":700,"width":250,"height":60},
-		{"id":"6be16a20b0e5cec6","type":"text","text":"[[Hamming weight]]","x":-780,"y":800,"width":250,"height":60},
-		{"id":"905978c933da2736","type":"text","text":"[[Generator Matrix]]","x":-780,"y":920,"width":250,"height":60},
 		{"id":"93f33434cfa7327d","type":"text","text":"[[Cosets of a subgroup]]","x":-1029,"y":1430,"width":250,"height":60},
 		{"id":"24884f2335fc29f2","type":"text","text":"[[Standard array]]","x":-1029,"y":1550,"width":250,"height":60},
 		{"id":"4dfaf9ab8b4ae9a7","type":"text","text":"[[Standard array decoding algorithm]]","x":-1029,"y":1690,"width":250,"height":60},
-		{"id":"c47e8ab72ec55d39","type":"text","text":"[[Equivalent Codes]]","x":-780,"y":1040,"width":250,"height":60},
-		{"id":"444093ec4c0dd587","type":"text","text":"[[DUAL CODES]]","x":-780,"y":1180,"width":250,"height":60},
-		{"id":"0f94f72adab05286","type":"text","text":"[[Parity check matrix]]","x":-780,"y":1300,"width":250,"height":60},
 		{"id":"c1df7305d26b7652","type":"text","text":"[[Sindrome]]","x":-620,"y":1430,"width":250,"height":60},
-		{"id":"9b25bbbdf5f0367c","type":"text","text":"[[Sindrome decoding algorithm]]","x":-620,"y":1550,"width":250,"height":60},
+		{"id":"9b25bbbdf5f0367c","type":"text","text":"[[Sindrome decoding]]]","x":-620,"y":1550,"width":250,"height":60},
 		{"id":"01209eab128f273f","type":"text","text":"[[Data Encryption Standard (DES)]]","x":69,"y":440,"width":250,"height":60},
 		{"id":"b13e5cfedc99c7c8","type":"text","text":"[[Advanced Encryption Standard (AES)]]","x":393,"y":440,"width":250,"height":60},
 		{"id":"bf8792f9a62d570b","type":"text","text":"SYMMETRIC ENCRYPTION","x":310,"y":260,"width":164,"height":60},
@@ -37,8 +32,12 @@
 		{"id":"4b07f4f4480d9f46","type":"text","text":"[[MC ELIECE CRYPTOSYSTEM]]","x":-1840,"y":140,"width":250,"height":60},
 		{"id":"8ea735f7409bcaec","type":"text","text":"[[Niederreiter cryptosystem]]","x":-1480,"y":140,"width":250,"height":60},
 		{"id":"7ffd01418b920867","type":"text","text":"[[Elgamal Digital Signature Scheme]]","x":175,"y":-120,"width":250,"height":60},
-		{"id":"5b65fa36d4f0cc1c","x":555,"y":-120,"width":250,"height":60,"type":"text","text":"[[Digital Signature Algorithm (DSA)]]"},
-		{"id":"f967d8f1b8038f8b","type":"text","text":"[[Modes of Operation]]","x":1055,"y":60,"width":206,"height":70}
+		{"id":"5b65fa36d4f0cc1c","type":"text","text":"[[Digital Signature Algorithm (DSA)]]","x":555,"y":-120,"width":250,"height":60},
+		{"id":"f967d8f1b8038f8b","type":"text","text":"[[Modes of Operation]]","x":1055,"y":60,"width":206,"height":70},
+		{"id":"905978c933da2736","type":"text","text":"[[Generator Matrix]]","x":-780,"y":860,"width":250,"height":60},
+		{"id":"c47e8ab72ec55d39","type":"text","text":"[[Equivalent Codes]]","x":-780,"y":980,"width":250,"height":60},
+		{"id":"444093ec4c0dd587","type":"text","text":"[[DUAL CODES]]","x":-780,"y":1120,"width":250,"height":60},
+		{"id":"0f94f72adab05286","type":"text","text":"[[Parity check matrix]]","x":-780,"y":1240,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"5760ea3855532f4f","fromNode":"913f2669f8da955d","fromSide":"bottom","toNode":"138865e3537a45ad","toSide":"top"},
@@ -52,8 +51,6 @@
 		{"id":"636cefdd48e70210","fromNode":"049ba139054148d4","fromSide":"bottom","toNode":"4b07f4f4480d9f46","toSide":"top"},
 		{"id":"d9f6c05fddf46b00","fromNode":"049ba139054148d4","fromSide":"bottom","toNode":"8ea735f7409bcaec","toSide":"top"},
 		{"id":"1ae99e7d50e065ff","fromNode":"150cb79856575513","fromSide":"bottom","toNode":"b90086b228f609ce","toSide":"top"},
-		{"id":"c0716ad46c2d2c4d","fromNode":"b90086b228f609ce","fromSide":"bottom","toNode":"6be16a20b0e5cec6","toSide":"top"},
-		{"id":"daa72e4fedb2357a","fromNode":"6be16a20b0e5cec6","fromSide":"bottom","toNode":"905978c933da2736","toSide":"top"},
 		{"id":"f8dccd4905333ecc","fromNode":"905978c933da2736","fromSide":"bottom","toNode":"c47e8ab72ec55d39","toSide":"top"},
 		{"id":"3c955f61c3641ffa","fromNode":"c47e8ab72ec55d39","fromSide":"bottom","toNode":"444093ec4c0dd587","toSide":"top"},
 		{"id":"6fba281e2fed258d","fromNode":"444093ec4c0dd587","fromSide":"bottom","toNode":"0f94f72adab05286","toSide":"top"},
@@ -73,6 +70,7 @@
 		{"id":"e32d872e196b1652","fromNode":"82b740836219b202","fromSide":"bottom","toNode":"5e94eb85d9eb51ab","toSide":"top"},
 		{"id":"c734dc92af2bfc0e","fromNode":"82b740836219b202","fromSide":"bottom","toNode":"5a0c8b2434282ea6","toSide":"top"},
 		{"id":"c991df37b387ccda","fromNode":"82b740836219b202","fromSide":"bottom","toNode":"c5a49953d7a0763f","toSide":"top"},
-		{"id":"df9b3fb97bb585cb","fromNode":"913f2669f8da955d","fromSide":"bottom","toNode":"5b65fa36d4f0cc1c","toSide":"top"}
+		{"id":"df9b3fb97bb585cb","fromNode":"913f2669f8da955d","fromSide":"bottom","toNode":"5b65fa36d4f0cc1c","toSide":"top"},
+		{"id":"7f74cf0130a41de9","fromNode":"b90086b228f609ce","fromSide":"bottom","toNode":"905978c933da2736","toSide":"top"}
 	]
 }

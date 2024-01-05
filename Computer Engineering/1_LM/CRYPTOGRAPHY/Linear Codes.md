@@ -32,3 +32,14 @@ Hamming distance which affects the number of errors that can be
 corrected.
 We refer to a linear code C as an $(n, k, d)$-code to specify its distance d.
 The integers $n, k, d$ are the parameters of the linear code $C$.
+
+- [[Hamming weight]]
+- [[Generator Matrix]]
+- [[Equivalent Codes]]
+- [[DUAL CODES]]
+- [[Cosets of a subgroup]]
+- [[Sindrome]]
+- [[Standard array decoding algorithm]]
+- [[Sindrome decoding]]
+
+
