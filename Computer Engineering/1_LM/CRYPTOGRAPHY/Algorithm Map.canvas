@@ -15,11 +15,11 @@
 		{"id":"150cb79856575513","type":"text","text":"[[Linear Codes]]","x":-780,"y":600,"width":250,"height":60},
 		{"id":"b90086b228f609ce","type":"text","text":"[[Hamming weight]]","x":-780,"y":700,"width":250,"height":60},
 		{"id":"6be16a20b0e5cec6","type":"text","text":"[[Hamming weight]]","x":-780,"y":800,"width":250,"height":60},
-		{"id":"905978c933da2736","x":-780,"y":920,"width":250,"height":60,"type":"text","text":"[[Generator Matrix]]"},
+		{"id":"905978c933da2736","type":"text","text":"[[Generator Matrix]]","x":-780,"y":920,"width":250,"height":60},
 		{"id":"93f33434cfa7327d","type":"text","text":"[[Cosets of a subgroup]]","x":-1029,"y":1430,"width":250,"height":60},
 		{"id":"24884f2335fc29f2","type":"text","text":"[[Standard array]]","x":-1029,"y":1550,"width":250,"height":60},
 		{"id":"4dfaf9ab8b4ae9a7","type":"text","text":"[[Standard array decoding algorithm]]","x":-1029,"y":1690,"width":250,"height":60},
-		{"id":"c47e8ab72ec55d39","x":-780,"y":1040,"width":250,"height":60,"type":"text","text":"[[Equivalent Codes]]"},
+		{"id":"c47e8ab72ec55d39","type":"text","text":"[[Equivalent Codes]]","x":-780,"y":1040,"width":250,"height":60},
 		{"id":"444093ec4c0dd587","type":"text","text":"[[DUAL CODES]]","x":-780,"y":1180,"width":250,"height":60},
 		{"id":"0f94f72adab05286","type":"text","text":"[[Parity check matrix]]","x":-780,"y":1300,"width":250,"height":60},
 		{"id":"c1df7305d26b7652","type":"text","text":"[[Sindrome]]","x":-620,"y":1430,"width":250,"height":60},
@@ -27,13 +27,15 @@
 		{"id":"01209eab128f273f","type":"text","text":"[[Data Encryption Standard (DES)]]","x":69,"y":440,"width":250,"height":60},
 		{"id":"b13e5cfedc99c7c8","type":"text","text":"[[Advanced Encryption Standard (AES)]]","x":393,"y":440,"width":250,"height":60},
 		{"id":"bf8792f9a62d570b","type":"text","text":"SYMMETRIC ENCRYPTION","x":310,"y":260,"width":164,"height":60},
-		{"id":"b312ef23590deb46","x":680,"y":230,"width":250,"height":60,"type":"text","text":"[[Electronic Code Book (ECB)]]"},
-		{"id":"a543aedc78cf8141","x":1011,"y":230,"width":250,"height":60,"type":"text","text":"[[Cipher Block Chain]]"},
-		{"id":"991e00b8d3b13aa8","x":1320,"y":230,"width":250,"height":60,"type":"text","text":"[[Output Feedback (OFB)]]"},
-		{"id":"3e009702b97a5062","x":1640,"y":230,"width":250,"height":60,"type":"text","text":"[[Cipher Feedback Mode]]"},
-		{"id":"f967d8f1b8038f8b","x":1217,"y":60,"width":206,"height":70,"type":"text","text":"[[Modes of Operation]]"},
+		{"id":"b312ef23590deb46","type":"text","text":"[[Electronic Code Book (ECB)]]","x":680,"y":230,"width":250,"height":60},
+		{"id":"a543aedc78cf8141","type":"text","text":"[[Cipher Block Chain]]","x":1011,"y":230,"width":250,"height":60},
+		{"id":"991e00b8d3b13aa8","type":"text","text":"[[Output Feedback (OFB)]]","x":1320,"y":230,"width":250,"height":60},
+		{"id":"3e009702b97a5062","type":"text","text":"[[Cipher Feedback Mode]]","x":1640,"y":230,"width":250,"height":60},
+		{"id":"f967d8f1b8038f8b","type":"text","text":"[[Modes of Operation]]","x":1217,"y":60,"width":206,"height":70},
 		{"id":"6168c55dd97a38e4","type":"text","text":"[[Block Ciphers]]","x":301,"y":70,"width":185,"height":60},
-		{"id":"d13570fdb610bad2","x":-1150,"y":440,"width":250,"height":60,"type":"text","text":"[[Error correcting codes]]"}
+		{"id":"d13570fdb610bad2","type":"text","text":"[[Error correcting codes]]","x":-1150,"y":440,"width":250,"height":60},
+		{"id":"479d017caad12ac7","x":-255,"y":860,"width":250,"height":60,"type":"text","text":"Linear Congruences"},
+		{"id":"621e621d84306e57","x":-255,"y":1040,"width":250,"height":60,"type":"text","text":"[[Chinese Remainder Theorem]]"}
 	],
 	"edges":[
 		{"id":"5760ea3855532f4f","fromNode":"913f2669f8da955d","fromSide":"bottom","toNode":"138865e3537a45ad","toSide":"top"},
@@ -64,6 +66,7 @@
 		{"id":"188f859082a55d95","fromNode":"f967d8f1b8038f8b","fromSide":"bottom","toNode":"3e009702b97a5062","toSide":"top"},
 		{"id":"15eced387d7264d0","fromNode":"6168c55dd97a38e4","fromSide":"bottom","toNode":"bf8792f9a62d570b","toSide":"top"},
 		{"id":"3cb05d831eee1121","fromNode":"6168c55dd97a38e4","fromSide":"right","toNode":"f967d8f1b8038f8b","toSide":"top"},
-		{"id":"7c2ff74496ded9f6","fromNode":"d13570fdb610bad2","fromSide":"right","toNode":"150cb79856575513","toSide":"top"}
+		{"id":"7c2ff74496ded9f6","fromNode":"d13570fdb610bad2","fromSide":"right","toNode":"150cb79856575513","toSide":"top"},
+		{"id":"f34eba7300c26f30","fromNode":"479d017caad12ac7","fromSide":"bottom","toNode":"621e621d84306e57","toSide":"top"}
 	]
 }
