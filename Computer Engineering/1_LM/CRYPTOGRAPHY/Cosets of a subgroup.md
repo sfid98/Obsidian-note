@@ -17,6 +17,32 @@ We denote $[g]$ mod $H$ by $g + H$.
 Observe that $g+0=g \implies g\in[g]$ and also $H$ is itself a coset that is the coset $0 +H$.
 Furthermore $g_{1}\equiv g_{2} \text{ mod } \iff [g_{1}\equiv g_{2}]\text{ mod }H \iff g_{1} \text{ and } g_{2}$ are in the same cosets.
 
+**Example**
+
+Consider the abelian group $(F_{2}^2,+)$ where x is the vector addition $\text{ mod } 2$
+Let $H$ be the subgroup
+
+$H=\{(0,0),(1,0)\} \text{ of } F_{2}^2$
+
+The cosets of $H$ are
+$$
+\begin{align*}
+(0,0) + H = \{(0,0),(1,0)\} \\
+(0,1) + H = \{(0,1),(1,1)\} \\
+(1,0) + H = \{(0,0),(1,0)\} \\
+(1,1) + H = \{(1,1),(0,1)\}
+\end{align*}
+$$
+
+So at the end the cosets are
+$$
+\begin{align*}
+\{(0,0),(1,0)\} \text{ and } \{(0,1),(1,1)\} \\
+\end{align*}
+$$
+
+
+
 **Remark** $$\forall g\in G\left.|g+H|=|[g]|=|\{h+g|h\in H\}|=|H|.\right. $$
 Thus: $|G| =|H|t$, where t is the number of cosets of $H$
 

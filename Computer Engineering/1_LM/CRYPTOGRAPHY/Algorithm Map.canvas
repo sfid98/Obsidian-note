@@ -9,7 +9,7 @@
 		{"id":"24884f2335fc29f2","type":"text","text":"[[Standard array]]","x":-1029,"y":1550,"width":250,"height":60},
 		{"id":"4dfaf9ab8b4ae9a7","type":"text","text":"[[Standard array decoding algorithm]]","x":-1029,"y":1690,"width":250,"height":60},
 		{"id":"c1df7305d26b7652","type":"text","text":"[[Sindrome]]","x":-620,"y":1430,"width":250,"height":60},
-		{"id":"9b25bbbdf5f0367c","type":"text","text":"[[Sindrome decoding]]]","x":-620,"y":1550,"width":250,"height":60},
+		{"id":"9b25bbbdf5f0367c","type":"text","text":"[[Sindrome decoding]]","x":-620,"y":1550,"width":250,"height":60},
 		{"id":"01209eab128f273f","type":"text","text":"[[Data Encryption Standard (DES)]]","x":69,"y":440,"width":250,"height":60},
 		{"id":"b13e5cfedc99c7c8","type":"text","text":"[[Advanced Encryption Standard (AES)]]","x":393,"y":440,"width":250,"height":60},
 		{"id":"bf8792f9a62d570b","type":"text","text":"SYMMETRIC ENCRYPTION","x":310,"y":260,"width":164,"height":60},
