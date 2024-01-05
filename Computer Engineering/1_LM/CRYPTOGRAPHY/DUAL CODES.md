@@ -1,4 +1,4 @@
-Given  a linear $(n,k)$-code $C$, the orthogonal complement,denoted by $C^\perp$ of C, is defined tthogonalo be the set of vectors in $F_{q}^n$ which are orthogonal to every codewords of $C$. (See [[ortogonal vector]])
+Given  a linear $(n,k)$-code $C$, the orthogonal complement,denoted by $C^\perp$ of C, is defined to be the set of vectors in $F_{q}^n$ which are orthogonal to every codewords of $C$. (See [[ortogonal vector]])
 $$
 C^\perp = \{x \in F_{q}^n : x\cdot y = 0 \text{ }∀y ∈ C\}
 $$
@@ -12,8 +12,8 @@ $$
 $$
 
 **Proof** #proof 
-Suppose $\bar{v}\in C^\perp$ that is $\bar{v}$ is orthogonal to each codeword of $C$ and hence it is orhogonal to each row of $G$. Now suppose that $\bar{v}G=\bar{0}$. (\*) Let $\bar{g_{1}},\bar{g_{2}},\dots,\bar{g_{k}}$ be the rows of $G$
-From (\*) $\bar{b} \bar{g_{i}}=0 \text{ }\forall i=1\dots k$
+Suppose $\bar{v}\in C^\perp$ that is $\bar{v}$ is orthogonal to each codeword of $C$ and hence it is orthogonal to each row of $G$. Now suppose that $\bar{v}G=\bar{0}$. (*) Let $\bar{g_{1}},\bar{g_{2}},\dots,\bar{g_{k}}$ be the rows of $G$
+From (\*) $\bar{v} \bar{g_{i}}=0 \text{ }\forall i=1\dots k$
 If $\bar{u}$ is a codeword of $C \implies \bar{u} = \sum_{i=1}^k\alpha_{i} \bar{g_{i}} \text{ }\alpha_{i} \in F_{q}$
 
 $$
