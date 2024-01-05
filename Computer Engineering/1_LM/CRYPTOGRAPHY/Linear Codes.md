@@ -30,6 +30,7 @@ The integers $n, k, d$ are the parameters of the linear code $C$.
 - [[DUAL CODES]]
 - [[Cosets of a subgroup]]
 - [[Sindrome]]
+- [[Standard array]]
 - [[Standard array decoding algorithm]]
 - [[Sindrome decoding]]
 

@@ -1,7 +1,5 @@
 
-Denote the [[Cosets of a subgroup]] by $C_{0} , C_{1} , . . . , C_{t−1}$ where $C_{0} = C$ and $t = q_{n−k}$. For
-each $C_{}i$ , $0 ≤ i ≤ t − 1$ let $l_{i}$ be a vector of minimum weight in $C_i$ .
-The elements $i$ are called coset leaders.
+Denote the [[Cosets of a subgroup]] by $C_{0} , C_{1} , . . . , C_{t−1}$ where $C_{0} = C$ and $t = q_{n−k}$. For each $C_{}i$ , $0 ≤ i ≤ t − 1$ let $l_{i}$ be a vector of minimum weight in $C_i$ . The elements $i$ are called coset leaders.
 Note that $l_{0} = 0$.
 
 If $C = \{l_{0} , c_{1} , . . . , c_{q^k-1} \}$ then a standard array $S = (s_{ij})$ for C is a
@@ -16,15 +14,11 @@ More precisely,
 Note that S contains all vectors in $F_{q}^n$ and that $C_{i}$ is the coset $l_{i} + C$
 
 
-The following proposition shows that it is possible to find a unique element
-of minimum weight for at least some cosets.
-
+The following proposition shows that it is possible to find a unique element of minimum weight for at least some cosets.
 
 **Proposition**
-Let C be an $(n, k, d)$-code. If x is a vector of $F_{q}^n$ such that
-$w(x) ≤ (d − 1)/2$ then x is a coset leader and it is the unique coset leader of its coset.
-**Proof**
-
+Let C be an $(n, k, d)$-code. If x is a vector of $F_{q}^n$ such that $w(x) ≤ (d − 1)/2$ then x is a coset leader and it is the unique coset leader of its coset.
+**Proof** #proof 
 Let $x ∈ F_{q}^n$ such that $w(x ) ≤ (d − 1)/2$.
 $∀ x' ∈ x + C$ , $x' \neq x$ we are going to prove that $w(x') > w (x)$.
 Since $x' − x ∈ C$ we get:
