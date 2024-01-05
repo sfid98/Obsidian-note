@@ -24,7 +24,7 @@
 		{"id":"3e009702b97a5062","type":"text","text":"[[Cipher Feedback Mode]]","x":1640,"y":230,"width":250,"height":60},
 		{"id":"6168c55dd97a38e4","type":"text","text":"[[Block Ciphers]]","x":301,"y":70,"width":185,"height":60},
 		{"id":"d13570fdb610bad2","type":"text","text":"[[Error correcting codes]]","x":-1150,"y":440,"width":250,"height":60},
-		{"id":"479d017caad12ac7","type":"text","text":"Linear Congruences","x":-255,"y":860,"width":250,"height":60},
+		{"id":"479d017caad12ac7","type":"text","text":"Linear Congruences (TO COMPLETE)","x":-255,"y":860,"width":250,"height":60},
 		{"id":"621e621d84306e57","type":"text","text":"[[Chinese Remainder Theorem]]","x":-255,"y":1040,"width":250,"height":60},
 		{"id":"d8e319fe4f9bc2a5","type":"text","text":"[[Diffie Hellman Key Exchange]]","x":-315,"y":380,"width":250,"height":60},
 		{"id":"e4ce15da0b5b4f02","type":"text","text":"Key Exchange","x":-287,"y":210,"width":195,"height":50},

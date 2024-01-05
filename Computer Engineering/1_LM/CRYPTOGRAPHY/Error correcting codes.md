@@ -8,34 +8,27 @@ If C is a code, the words of C are called codewords.
 From now, our alphabet will be $F_{q}$ , the finite field of order q
 
 ### Block Codes 
-A q-ary block code of length n containing M codewords over the alphabet
-$F_{q}$ is a set of $M$ $n$-tuples where each n-tuple takes its components from $F_{Q}$ .
-We refer to such a block code as either an $[n, M]$-code or an $(n, M)$-code
+A q-ary block code of length n containing M codewords over the alphabet $F_{q}$ is a set of $M$ $n$-tuples where each n-tuple takes its components from $F_{q}$. We refer to such a block code as either an $[n, M]$-code or an $(n, M)$-code
 over $F_{q}$ .
 
 ### Hamming Distance
 
-We are going to clarify the concept of a wor
-
-d which is closer to one codeword than to another by introducing a distance function on $F_{q}^n$ called the Hamming distance.
+We are going to clarify the concept of a word which is closer to one codeword than to another by introducing a distance function on $F_{q}^n$ called the Hamming distance.
 **Definition**
 The Hamming distance $d(x, y)$ between two elements $x, y ∈ F_{q}^n$ is the
 number of places in which they differ that is, if $x = (x_{1} , x_{2} , . . . , x_{n})$ and $y = (y_{1} , y_{2} , . . . , y_{n})$ then
 $$d(x,y)=|\{i\mid1\leq i\leq n,x_i\neq y_i\}|$$
 
-The Hamming distance is a legitimate distance function or metric, as it
-satisfies the three conditions:
-
+The Hamming distance is a legitimate distance function or metric, as it satisfies the three conditions:
 1. $\forall x,y\in F_q^n,~d(x,y)\geq0~\mathrm{and~}d(x,y)=0\Leftrightarrow x=y.$
 2. $\forall x,y\in F_q^n,d(x,y)=d(y,x)$
-3. $x,y,z\in F_q^n,d(x,z)\leq d(x,z)+d(z,y)$ (The triangle inequality)
+3. $x,y,z\in F_q^n,d(x,y)\leq d(x,z)+d(z,y)$ (The triangle inequality)
 
 **Definition**
 
 Let C be an $[n, M]$-code. The Hamming distance of the code C is:
 $$d:=min\{d(x,y)|x,y\in C,x\neq y\}$$
-If we want to compute the Hamming distance for a $[n, M]$-code C then it is
-necessary to check $\binom M2$ pairs of codewords in order to find the pair with the minimum distance.
+If we want to compute the Hamming distance for a $[n, M]$-code C then it is necessary to check $\binom M2$ pairs of codewords in order to find the pair with the minimum distance.
 This work is simplified when the codes in question are linear codes [[Hamming weight]].
 
 An $(n, M, d)$-code is an $(n, M)$-code having minimum distance $d$.
@@ -52,7 +45,7 @@ specified as follows:
 
 This strategy will maximize the decoder’s likelihood of correcting errors provided that the following assumptions are made about the channel.
 1. Each symbol transmitted has the same probability p of being received in error.
-2. If a symbol is received in error, then each of the q − 1 possible errors is equally likely with probability $\frac{p}{q-1}$.
+2. If a symbol is received in error, then each of the $q − 1$ possible errors is equally likely with probability $\frac{p}{q-1}$.
 Such a channel is called a q-ary symmetric channel and p is called the symbol error probability of the channel
 
 Now suppose that the vector r of length n is received.
@@ -80,7 +73,7 @@ that is, $p < (q − 1)/q$.
 Hence if we assume that $p < (q − 1)/q$ the codeword maximizing the
 probability that $r$ is received is the codeword at minimum distance from $r$.
 
-#### Sphere of radius r
+#### Sphere of radius R and center x
 
 **Definition**
 
@@ -89,14 +82,11 @@ $S(x, r)$ or $S_{x,r}$ is the set:
 $$S(x,r):=\{v\in\mathbb{F}_q^n|d(x,v)\leq r\}.$$
 #### Theorem 1
 
-Let C be an $[n, M]$-code having distance $d = 2e + 1$. Then C can correct
-up to $e$ errors. If used for error detection only, $C$ can detect up to $2e$ errors.
+Let C be an $[n, M]$-code having distance $d = 2e + 1$. Then C can correct up to $e$ errors. If used for error detection only, $C$ can detect up to $2e$ errors.
 
 #### Theorem 2
 
-Let C be a q-ary $[n, M]$-code having distance $d = 2t$. Then $C$ can correct
-up to $t − 1$ errors. If used for error detection only, C can detect up to
-$2t − 1$ errors.
+Let C be a q-ary $[n, M]$-code having distance $d = 2t$. Then $C$ can correct up to $t − 1$ errors. If used for error detection only, C can detect up to $2t − 1$ errors.
 
 **Proof**.
 
@@ -106,11 +96,8 @@ Then $d(x,c_i)\leq t-1\mathrm{~and~}d(x,c_j)\leq t-1.$
 By the triangle inequality for the Hamming distance:
 $d(c_i,c_j)\leq d(x,c_i)+d(x,c_j)\leq t-1+t-1=2t-2<2t.$
 
-But each pair of distinct codewords has distance at least $2t$; thus we get a
-contradiction and hence $S(c_i,t-1)\cap S(c_j,t-1)=\emptyset.$
-Therefore, if a codeword ci is transmitted and $e ≤ t − 1$ errors are
-introduced the received word $r$ is an $n$-tuple in the sphere $S(c_{i} , t − 1)$ and
-$c_{i}$ is the unique codeword closest to $r$.
+But each pair of distinct codewords has distance at least $2t$; thus we get a contradiction and hence $S(c_i,t-1)\cap S(c_j,t-1)=\emptyset.$
+Therefore, if a codeword ci is transmitted and $e ≤ t − 1$ errors are introduced the received word $r$ is an $n$-tuple in the sphere $S(c_{i} , t − 1)$ and $c_{i}$ is the unique codeword closest to $r$.
 
 If we use the code only for error detection then at least $2t$ errors must occur in a codeword to carry it into another codeword.
 If at least one and at most $2t − 1$ errors are introduced, then the received word will never be a codeword and error detection is always possible.
@@ -162,21 +149,22 @@ A sphere of radius $r$ in $F_{q}^n$ contains exactly
 $$\binom n0+\binom n1(q-1)+\binom n2(q-1)^2+\ldots+\binom nr(q-1)^r$$
 words.
 
-Proof. 
+**Proof.** 
 Let u be a fixed vector of $F_{q}^n$ . Consider how many vectors v have distance exactly $m ≤ n$ from $u$.
 
 The $m$ positions in which $v$ is to differ from u can be chosen in $\binom nm$ ways and in each of these $m$ positions the entry of $v$ can be chosen in $q − 1$ ways to differ from the corresponding entry of $u$.
 
 Hence the number of vectors at distance exactly $m$ from $u$ is $\binom nm(q − 1)^m$
 and so the total number of vectors in $S(u, r)$ is
-$\binom n0+\binom n1(q-1)+\binom n2(q-1)^2+\ldots+\binom nr(q-1)^r.$
+
+$$\binom n0+\binom n1(q-1)+\binom n2(q-1)^2+\ldots+\binom nr(q-1)^r.$$
 
 #### Hamming bound
 
 A q-ary $(n, M, d)$-code, where either $d = 2e + 1$ or $d = 2e + 2$, satisfies
 
 $$M(\binom n0+\binom n1(q-1)+\binom n2(q-1)^2+\ldots+\binom ne(q-1)^e)\leq q^n.$$
-Proof. 
+**Proof.** 
 We know that two spheres with center at two different codewords and radius e are disjoint; 
 Hence our proposition follows from the previous lemma.
 
