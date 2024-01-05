@@ -77,6 +77,21 @@ E_{{k'}}(m_{1}) = \overline{E_{\bar{k'}}(\overline{m_{1}})} = \overline{E_{k}(\o
 \end{aligned}
 $$
 So if we obtain $E_{k'}(m_{1}) = \overline{c_{2}}$ then $k' = \bar{k}$
+The other two interesting attack against the DES are also
+- Differential cryptoanalysis
+- Linear cryptoanaysis
+	
+#### Differential cryptoanalysis
 
+**Main idea**
+This is a chosen plaintext attack, assumes that an attacker knows plaintext cipher-text pairs.
+It involves comparing the xor of 2 plaintext to the$ xor of the corresponding ciphertexts.
+Let $P_{1}$ and $P_{2}$ be two plaintext and let $c_{1}$, $c_{2}$ be the corresponding cipher-text.
+Set $\Delta p =P_{1}\oplus P_{2}$ and $\Delta c=c_{1}\oplus c_{2}$
+The pair$(\Delta p,\Delta c)$ is called differential. 
+Set $D(\Delta p) =\{(P_{1}',P_{2}') \in M^2:P_{1}'\oplus P_{2}'= \Delta p\}$
+$c_{1}' = E_{k}(P_{1}')$, $c_{2}'=E_{k}(P_{2}')$
+What are the possible values for $\Delta c'= c_{1}'\oplus c'_{2}$. The distribution of $\Delta c'$ given $\Delta p$ may reveals some information about the key. After finding several bits we can use bruteforce attack for the rest of the bit to find the key. 
 
+**Anyway DES is resistant to this type of attack and against the LINEAR CYRYPTOANALYSIS ATTACK**
 
