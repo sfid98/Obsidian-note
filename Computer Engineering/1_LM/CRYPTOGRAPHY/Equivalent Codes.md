@@ -15,8 +15,3 @@ $G$ the following operations:
 **It is easy to see that two equivalent codes have the same parameters.**
 
 
-**Theorem**
-If $C$ is an $(n, k)$-code over $F_{q}$ then there exists a generator matrix $G$ for $C$ or for one equivalent code $C'$ such that
-$$G = [I_{k} A]$$
-An $(n, k)$-code $C$ over $F_{}q$ can be characterized in terms of another subspace, the orthogonal complement of $C$.
-
