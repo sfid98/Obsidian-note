@@ -1,4 +1,8 @@
 
+Let $C$ be a linear $(n,k)$ -code over $F_{q}$ we can think of $C$ as an additive subgroup of order $q^k$ of $(F_{q}^n,+)$ $|C|=q^k$
+
+$C$ has $t=q^{n-k}$ cosets.
+
 Denote the [[Cosets of a subgroup]] by $C_{0} , C_{1} , . . . , C_{t−1}$ where $C_{0} = C$ and $t = q_{n−k}$. For each $C_{}i$ , $0 ≤ i ≤ t − 1$ let $l_{i}$ be a vector of minimum weight in $C_i$ . The elements $i$ are called coset leaders.
 Note that $l_{0} = 0$.
 
