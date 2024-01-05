@@ -3,7 +3,6 @@
 		{"id":"eb28273394740295","type":"text","text":"Asymmetric Scheme encryption","x":-410,"y":0,"width":220,"height":50},
 		{"id":"913f2669f8da955d","type":"text","text":"DIGITAL SIGNATURE ALGORITHM","x":-56,"y":-280,"width":250,"height":60},
 		{"id":"138865e3537a45ad","type":"text","text":"[[RSA Digital signature scheme]]","x":-336,"y":-120,"width":250,"height":60},
-		{"id":"7ffd01418b920867","type":"text","text":"[[Elgamal Digital Signature Scheme]]","x":-56,"y":-120,"width":250,"height":60},
 		{"id":"150cb79856575513","type":"text","text":"[[Linear Codes]]","x":-780,"y":600,"width":250,"height":60},
 		{"id":"b90086b228f609ce","type":"text","text":"[[Hamming weight]]","x":-780,"y":700,"width":250,"height":60},
 		{"id":"6be16a20b0e5cec6","type":"text","text":"[[Hamming weight]]","x":-780,"y":800,"width":250,"height":60},
@@ -23,7 +22,6 @@
 		{"id":"a543aedc78cf8141","type":"text","text":"[[Cipher Block Chain]]","x":1011,"y":230,"width":250,"height":60},
 		{"id":"991e00b8d3b13aa8","type":"text","text":"[[Output Feedback (OFB)]]","x":1320,"y":230,"width":250,"height":60},
 		{"id":"3e009702b97a5062","type":"text","text":"[[Cipher Feedback Mode]]","x":1640,"y":230,"width":250,"height":60},
-		{"id":"f967d8f1b8038f8b","type":"text","text":"[[Modes of Operation]]","x":1217,"y":60,"width":206,"height":70},
 		{"id":"6168c55dd97a38e4","type":"text","text":"[[Block Ciphers]]","x":301,"y":70,"width":185,"height":60},
 		{"id":"d13570fdb610bad2","type":"text","text":"[[Error correcting codes]]","x":-1150,"y":440,"width":250,"height":60},
 		{"id":"479d017caad12ac7","type":"text","text":"Linear Congruences","x":-255,"y":860,"width":250,"height":60},
@@ -37,7 +35,10 @@
 		{"id":"c5a49953d7a0763f","type":"text","text":"[[Fermat Little Theorem]]","x":-1279,"y":290,"width":250,"height":60},
 		{"id":"049ba139054148d4","type":"text","text":"POST QUANTUM CRYPTOSYSTEM","x":-1635,"y":0,"width":220,"height":50},
 		{"id":"4b07f4f4480d9f46","type":"text","text":"[[MC ELIECE CRYPTOSYSTEM]]","x":-1840,"y":140,"width":250,"height":60},
-		{"id":"8ea735f7409bcaec","type":"text","text":"[[Niederreiter cryptosystem]]","x":-1480,"y":140,"width":250,"height":60}
+		{"id":"8ea735f7409bcaec","type":"text","text":"[[Niederreiter cryptosystem]]","x":-1480,"y":140,"width":250,"height":60},
+		{"id":"7ffd01418b920867","type":"text","text":"[[Elgamal Digital Signature Scheme]]","x":175,"y":-120,"width":250,"height":60},
+		{"id":"5b65fa36d4f0cc1c","x":555,"y":-120,"width":250,"height":60,"type":"text","text":"[[Digital Signature Algorithm (DSA)]]"},
+		{"id":"f967d8f1b8038f8b","type":"text","text":"[[Modes of Operation]]","x":1055,"y":60,"width":206,"height":70}
 	],
 	"edges":[
 		{"id":"5760ea3855532f4f","fromNode":"913f2669f8da955d","fromSide":"bottom","toNode":"138865e3537a45ad","toSide":"top"},
@@ -71,6 +72,7 @@
 		{"id":"f34eba7300c26f30","fromNode":"479d017caad12ac7","fromSide":"bottom","toNode":"621e621d84306e57","toSide":"top"},
 		{"id":"e32d872e196b1652","fromNode":"82b740836219b202","fromSide":"bottom","toNode":"5e94eb85d9eb51ab","toSide":"top"},
 		{"id":"c734dc92af2bfc0e","fromNode":"82b740836219b202","fromSide":"bottom","toNode":"5a0c8b2434282ea6","toSide":"top"},
-		{"id":"c991df37b387ccda","fromNode":"82b740836219b202","fromSide":"bottom","toNode":"c5a49953d7a0763f","toSide":"top"}
+		{"id":"c991df37b387ccda","fromNode":"82b740836219b202","fromSide":"bottom","toNode":"c5a49953d7a0763f","toSide":"top"},
+		{"id":"df9b3fb97bb585cb","fromNode":"913f2669f8da955d","fromSide":"bottom","toNode":"5b65fa36d4f0cc1c","toSide":"top"}
 	]
 }

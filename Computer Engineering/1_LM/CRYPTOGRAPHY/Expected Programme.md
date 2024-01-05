@@ -1,10 +1,10 @@
 - [ ] Introduction to Cryptology.
 - [ ] Historical cyphers. Substitution and Permutation techniques.
 - [ ] Modular Arithmetic and elementary Number Theory.
-- [ ] The RSA system.
-- [ ] The Discrete Logarithm Problem. The Diffie Hellman key exchange.
-- [ ] The ElGamal Cryptosystem.
-- [ ] The DSA and its variants.
+- [x] The RSA system.
+- [x] The Discrete Logarithm Problem. The Diffie Hellman key exchange.
+- [x] The ElGamal Cryptosystem.
+- [x] The DSA and its variants.
 - [ ] From DES to AES.
 - [ ] Elliptic curves and their applications in Cryptography.
 - [ ] Error-correcting Codes. Linear Codes and their applications in

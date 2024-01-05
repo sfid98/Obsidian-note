@@ -55,6 +55,7 @@ It applies a permutation following a table
 - The parity drop is a step in which the 64 bits will be reduced to 56 bit following a table.
 - In the shift step the bit are shifted in a way that depends on the round
 	- 1,2,9,16 -> one bit shift
+	- Others -> two bit shift
 - Compression P-box: The 56 bit are reduced to 48 to produce the key ![[des9.png]]
 
 ### DES SECURITY
