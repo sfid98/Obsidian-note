@@ -1,7 +1,7 @@
 The McEliece cryptosystem is an asymmetric cryptosystem developed by R McEliece in 1978. It is one of the best candidate for "post-quantum cryptography" since it is immmune to attacks using algorithms which run on a quantum computer. The original construction of the McEliece cryptosystem uses binary Goppa codes to encrypt and decrypt messages.
 
-#### BINARY IRREDUCEBLE GOPPA CODES
-Let $n,m,t$ be positive integer and let $g(x) =\sum_{i=0}^t g_{i} x^i \in F_{2^m}[x]$ be a monic irreduceble polunomial of degree $t$ over the finite fields $F_{2^m}$.
+#### BINARY IRREDUCIBLE GOPPA CODES
+Let $n,m,t$ be positive integer and let $g(x) =\sum_{i=0}^t g_{i} x^i \in F_{2^m}[x]$ be a monic irreducIble polunomial of degree $t$ over the finite fields $F_{2^m}$.
 Let $\mathcal{L}=(\alpha_{1},\alpha_{2},..,\alpha_{n}) \in F_{2^m}^n$ be a n-tuple of distinct element from $F_{2}^m$.
 The Goppa code $\mathcal{G} = G(\mathcal{L}, g(x))$ consist of all the elements $C=(c_{1},\dots,c_{n})$ that satisfies:
 $$
