@@ -30,14 +30,14 @@
 		{"id":"c5a49953d7a0763f","type":"text","text":"[[Fermat Little Theorem]]","x":-1279,"y":290,"width":250,"height":60},
 		{"id":"049ba139054148d4","type":"text","text":"POST QUANTUM CRYPTOSYSTEM","x":-1635,"y":0,"width":220,"height":50},
 		{"id":"4b07f4f4480d9f46","type":"text","text":"[[MC ELIECE CRYPTOSYSTEM]]","x":-1840,"y":140,"width":250,"height":60},
-		{"id":"8ea735f7409bcaec","type":"text","text":"[[Niederreiter cryptosystem]]","x":-1480,"y":140,"width":250,"height":60},
 		{"id":"7ffd01418b920867","type":"text","text":"[[Elgamal Digital Signature Scheme]]","x":175,"y":-120,"width":250,"height":60},
 		{"id":"5b65fa36d4f0cc1c","type":"text","text":"[[Digital Signature Algorithm (DSA)]]","x":555,"y":-120,"width":250,"height":60},
 		{"id":"f967d8f1b8038f8b","type":"text","text":"[[Modes of Operation]]","x":1055,"y":60,"width":206,"height":70},
 		{"id":"905978c933da2736","type":"text","text":"[[Generator Matrix]]","x":-780,"y":860,"width":250,"height":60},
 		{"id":"c47e8ab72ec55d39","type":"text","text":"[[Equivalent Codes]]","x":-780,"y":980,"width":250,"height":60},
 		{"id":"444093ec4c0dd587","type":"text","text":"[[DUAL CODES]]","x":-780,"y":1120,"width":250,"height":60},
-		{"id":"0f94f72adab05286","type":"text","text":"[[Parity check matrix]]","x":-780,"y":1240,"width":250,"height":60}
+		{"id":"0f94f72adab05286","type":"text","text":"[[Parity check matrix]]","x":-780,"y":1240,"width":250,"height":60},
+		{"id":"8ea735f7409bcaec","type":"text","text":"[[Niederreiter cryptosystem]]","x":-1480,"y":140,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"5760ea3855532f4f","fromNode":"913f2669f8da955d","fromSide":"bottom","toNode":"138865e3537a45ad","toSide":"top"},
