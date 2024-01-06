@@ -6,7 +6,6 @@ Proof. If $a$ has order $m$, then $|<a>| =m$, and from Langrange's Theorem $m$ i
 Then, $a^{o(G)} = a^{mq}=(a^m)^q = 1^q=1$
 
 ###### Proposition
-
 Let $n \in N$, $n\geq 2$. Then, $U_{n} = \{[x] \in Z_{n} |(x,n)=1\}$ is a group with respect to the multiplication mod n
 
 Proof #proof 
@@ -17,7 +16,6 @@ has its multiplicative inverse mod $n$ in $U_{n}$ . Therefore, $U_{n}$ is a grou
 **Remark** A complete set of representatives of all distinct elements in $U_{n}$ is
 the set of positive integers not exceeding n and coprime to n. Hence, the
 order of $U_{n}$ is $Φ(n)$.
-
 
 [[Euler's Theorem]]
 [[Fermat Little Theorem]]

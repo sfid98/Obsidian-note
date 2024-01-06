@@ -19,8 +19,6 @@
 		{"id":"3e009702b97a5062","type":"text","text":"[[Cipher Feedback Mode]]","x":1640,"y":230,"width":250,"height":60},
 		{"id":"6168c55dd97a38e4","type":"text","text":"[[Block Ciphers]]","x":301,"y":70,"width":185,"height":60},
 		{"id":"d13570fdb610bad2","type":"text","text":"[[Error correcting codes]]","x":-1150,"y":440,"width":250,"height":60},
-		{"id":"479d017caad12ac7","type":"text","text":"[[Linear Congruences]]","x":-255,"y":860,"width":250,"height":60},
-		{"id":"621e621d84306e57","type":"text","text":"[[Chinese Remainder Theorem]]","x":-255,"y":1040,"width":250,"height":60},
 		{"id":"d8e319fe4f9bc2a5","type":"text","text":"[[Diffie Hellman Key Exchange]]","x":-315,"y":380,"width":250,"height":60},
 		{"id":"e4ce15da0b5b4f02","type":"text","text":"Key Exchange","x":-287,"y":210,"width":195,"height":50},
 		{"id":"82b740836219b202","type":"text","text":"[[Rsa System]]","x":-835,"y":110,"width":250,"height":60},
@@ -37,7 +35,11 @@
 		{"id":"c47e8ab72ec55d39","type":"text","text":"[[Equivalent Codes]]","x":-780,"y":980,"width":250,"height":60},
 		{"id":"444093ec4c0dd587","type":"text","text":"[[DUAL CODES]]","x":-780,"y":1120,"width":250,"height":60},
 		{"id":"0f94f72adab05286","type":"text","text":"[[Parity check matrix]]","x":-780,"y":1240,"width":250,"height":60},
-		{"id":"8ea735f7409bcaec","type":"text","text":"[[Niederreiter cryptosystem]]","x":-1480,"y":140,"width":250,"height":60}
+		{"id":"8ea735f7409bcaec","type":"text","text":"[[Niederreiter cryptosystem]]","x":-1480,"y":140,"width":250,"height":60},
+		{"id":"621e621d84306e57","type":"text","text":"[[Chinese Remainder Theorem]]","x":-287,"y":1240,"width":250,"height":60},
+		{"id":"479d017caad12ac7","type":"text","text":"[[Linear Congruences]]","x":-287,"y":1120,"width":250,"height":50},
+		{"id":"66b779ced1aa3330","type":"text","text":"[[Elements of Group Theory]]","x":-287,"y":970,"width":250,"height":70},
+		{"id":"9c825347295df8de","type":"text","text":"[[Basic Notions of Group Theory]]","x":-287,"y":860,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"5760ea3855532f4f","fromNode":"913f2669f8da955d","fromSide":"bottom","toNode":"138865e3537a45ad","toSide":"top"},
@@ -71,6 +73,8 @@
 		{"id":"c734dc92af2bfc0e","fromNode":"82b740836219b202","fromSide":"bottom","toNode":"5a0c8b2434282ea6","toSide":"top"},
 		{"id":"c991df37b387ccda","fromNode":"82b740836219b202","fromSide":"bottom","toNode":"c5a49953d7a0763f","toSide":"top"},
 		{"id":"df9b3fb97bb585cb","fromNode":"913f2669f8da955d","fromSide":"bottom","toNode":"5b65fa36d4f0cc1c","toSide":"top"},
-		{"id":"7f74cf0130a41de9","fromNode":"b90086b228f609ce","fromSide":"bottom","toNode":"905978c933da2736","toSide":"top"}
+		{"id":"7f74cf0130a41de9","fromNode":"b90086b228f609ce","fromSide":"bottom","toNode":"905978c933da2736","toSide":"top"},
+		{"id":"e652cc46bb77dff8","fromNode":"9c825347295df8de","fromSide":"bottom","toNode":"66b779ced1aa3330","toSide":"top"},
+		{"id":"9bae1443adfb3e55","fromNode":"66b779ced1aa3330","fromSide":"bottom","toNode":"479d017caad12ac7","toSide":"top"}
 	]
 }
