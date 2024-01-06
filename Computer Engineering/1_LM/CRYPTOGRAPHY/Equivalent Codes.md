@@ -1,7 +1,7 @@
 **Definition**
 Two $F_{q}$ -linear codes are called (linearly) equivalent if one is obtained from the other by means of a sequence of operations of the following types:
-1. permutation of the positions of the code;
-2. multiplication of symbols in a fixed position by a non-zero scalar in $F_q$ .
+1. permutation of the _n_ digits of the codewords;
+2. multiplication of the symbols appearing in a fixed position by a nonzero scalar in $F_q$ .
  
 It is possible to prove that when we apply one of these operations (to every element of the code) we obtain a new code which is still a linear code.
 
