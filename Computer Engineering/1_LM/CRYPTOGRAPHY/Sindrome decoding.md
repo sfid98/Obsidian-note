@@ -1,4 +1,4 @@
-1.  We set up a one-to-one correspondence between coset leaders and syndromes (see[[Sindrome]]) ;
+1.  We set up a one-to-one correspondence between coset leaders and syndromes (see [[Sindrome]]) ;
 2. we add to the given standard the column of the sindromes of the coset leaders $\left.\left(\begin{array}{c}S(\ell_0)\\S(\ell_1)\\\vdots\\S(\ell_{q^{n-k}-1})\end{array}\right.\right)$
 3. we compute the syndrome $S(y)$ of $y$ and we find the coset leader $l_{i}$ associated to $S(y)$;
 4. we decode y as $z = y − l_{i}$ .
