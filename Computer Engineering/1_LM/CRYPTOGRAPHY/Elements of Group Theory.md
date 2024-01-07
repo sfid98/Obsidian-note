@@ -19,3 +19,10 @@ order of $U_{n}$ is $Φ(n)$.
 
 [[Euler's Theorem]]
 [[Fermat Little Theorem]]
+
+
+
+
+
+
+

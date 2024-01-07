@@ -39,7 +39,7 @@
 		{"id":"621e621d84306e57","type":"text","text":"[[Chinese Remainder Theorem]]","x":-287,"y":1240,"width":250,"height":60},
 		{"id":"479d017caad12ac7","type":"text","text":"[[Linear Congruences]]","x":-287,"y":1120,"width":250,"height":50},
 		{"id":"66b779ced1aa3330","type":"text","text":"[[Elements of Group Theory]]","x":-287,"y":970,"width":250,"height":70},
-		{"id":"9c825347295df8de","type":"text","text":"[[Basic Notions of Group Theory]]","x":-287,"y":860,"width":250,"height":60}
+		{"id":"9c825347295df8de","type":"text","text":"[[Basic Notions of Group Theory 2]]","x":-287,"y":860,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"5760ea3855532f4f","fromNode":"913f2669f8da955d","fromSide":"bottom","toNode":"138865e3537a45ad","toSide":"top"},
