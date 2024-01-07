@@ -174,4 +174,164 @@ This congruence is an equivalence relation on K [x] and partitions K [x] into eq
 
 **Definition**
 
-For any given $f(x)\in K[x]$ the confruence class of ()
+For any given $f(x)\in K[x]$ the congruence class of $(g(x))$ modulus $f(x)$ is the equivalence class
+
+$$[g(x)]=\{h(x)\in K[x]|h(x)\equiv g(x)\quad\mathrm{mod~}f(x)\}$$
+
+If $g (x) = q(x)f (x) + r (x) \text{ where } r (x) = 0$ or $deg(r(x)) <deg(f(x))$ then,
+
+$$
+[g (x)] = [r (x)] = \{r (x) + m(x)f (x)|m(x) ∈ K [x]\}
+$$
+
+We denote by $K[x]/f(x)$ the set of all equivalence classes in $K[x]$ under congruence modulus $f(x)$.
+
+The two following operations defined on $K[x] /  f(x)$ as follows:
+
+$$
+\begin{align*}
+&[h(x)] + [g (x)] := [h(x) + g (x)],\\
+&[h(x)][g (x)] := [h(x)g (x)],
+\end{align*}
+$$
+
+where $h(x),g(x) \in K[x]$, are well defined and form a commutative ring with identity, that is [1]
+
+By using Bezout’s identity it is possible to prove this theorem.
+
+###### Theorem
+$K[x]/f (x)$ is a field if and only if $f (x)$ is irreducible.
+
+###### Proposition
+The number of monic irreducible polynomials of degree $n$ in $Z_{p} [x]$ is
+positive for each $n$.
+
+###### Theorem
+
+Let $f(x) ∈ Z_{p}[x]$ be an irreducible polynomial of degree $n ≥ 2$ then,
+$Z_{p}[x]/f (x)$ is a finite field of order $p^n$ .
+
+**Proof**. We want to prove that $Z_{p}[x]/f (x)$ contains $p^n$ elements.
+
+To this aim, let us consider any class $[g(x)] \in Z_{p}[x] / f(x)$. By the division algorithm for polynomials
+$$
+g (x) = f (x)q(x) + r (x)
+$$
+
+where $r (x) = 0 \text{ or } deg (r (x)) < deg (f (x))$
+
+Hence, $[g (x)] = [r (x)]$. As $r (x) = 0$ or $deg (r (x)) < deg (f (x)) = n$ no two
+distinct remainder polynomials can be in the same class and
+
+$$r(x)=\sum_{i=0}^{n-1}a_ix^i,\mathrm{~}a_i\in\mathbb{Z}_p.$$
+
+Since there are $p$ choices for each $a_{i}$ so there are $p^n$ distinct remainder classes and our theorem follows.
+
+Hence, $Z_{p}[x]/f (x)$ contains $p^n$ elements for $n ≥ 2$.
+
+This, together with the knowledge that for $n = 1 \text{ }Z_{p}$ is a field with $p$
+elements, shows the existence of finite fields with $p^n$ elements for every prime $p$ and positive integer $n$.
+
+**Ex**. 
+Let $f (x) = x^3 + x + 1 ∈ Z_{2} [x]$$. $f(x)$ has degree $3$, has no root in $Z_{1}$ ,
+thus it is irreducible. Hence, $F8 = Z_{2}[x]/f (x)$ is a field with 8 elements:
+$0, 1, x, x + 1, x^2 , x^2 + 1, x^2 + x, x^2 + x + 1$.
+Observe that x 3 ≡ x + 1. Write the addition and multiplication tables of $F_{8}$ .
+
+##### Properties of Finite Fields
+
+
+From now on $Fq^∗$ will denote the set of non-zero elements of the finite field $F_{q}$ .
+We are going to prove that $F_{1}^∗$ is a cyclic (multiplicative) group
+
+###### Lemma
+A polynomial of degree n over $F_{q}$ has at most n roots in $F_{q}$ .
+
+###### Lemma
+Let $G$ be a group and let $a ∈ G$ . If $ord(a) = n$ then $ord(a^k) = n/(n, k)$.
+Furthermore, if $as = 1$ then $n$ divides $s$.
+
+##### Theorem
+
+**Proof**. Let $t$ be the largest order of any element of $F_{q}$ and let $λ ∈ F_{q}$ be an element of order $t$
+
+We want to prove that $t=q-1$ and thus $F_{q}^* = <\lambda >$
+
+Suppose $t< q-1$
+
+We are going to show that there is some element $β$ whose order does not divide $t$.
+
+Assume on the contrary that the order of every non-zero element $\alpha$ of $F_q$ divides $t$, that is $t=ord(\alpha)l$. Hence $\alpha^t=(\alpha^{ord(\alpha)})^l = 1^l=1$.
+
+Then every non-zero element of $F_{q}$ satisfies the equation $x^t − 1 = 0$.
+This equation has at most t roots in $F_{q}$ and since $t < q − 1$ we get a
+contradiction as $|Fq^*| = q − 1$.
+
+Thus, let $β$ be an element of $F_{q}$ such that $c = ord(β)$ does not divide $t$.
+There exist both some prime $p$ and an integer $d ≥ 1$ such that $p^d$ divides $c$ but not t. Thus, $c = lp^d$ .
+Let $p^e$ be the largest power of $p$ dividing $t$, with $0 ≤ e < d$.
+Let $p^e$ be the larges power of $p$ dividing $t$, with $0\leq e\leq d$
+Let $α = λ^{p^e}$ and $γ = β^{c/p^d}$ .
+We have that 
+$$k := ord(α) = t/(t, p^e) = t/p^e$$
+and
+$$
+b := ord(γ) = c/(c, c/p d ) = p d .
+$$
+
+Now, observe that
+$$
+(αγ)^{bk} = (α^k)^b (γ^b)^k = 1^b 1^k = 1
+$$
+
+
+We are going to prove that αγ is an element of order 
+$bk = tp^{d−e} > t$ which contradicts the maximality of t.
+
+Let $ord(αγ) = s$ then, $(αγ)^s = 1$. Since $(αγ)^{bk} = 1$ then $s|bk$.
+
+On the other hand
+$$
+\begin{aligned}1&=(\alpha\gamma)^{sb}=\alpha^{sb}((\gamma^b)^s)=\alpha^{sb}(1)^s=\alpha^{sb}\Rightarrow k|sb~as~ord(\alpha)=k\\\\1&=(\alpha\gamma)^{sk}=(\alpha^k)^{s}(\gamma^{sk})=(1)^{s}\gamma^{sk}=\gamma^{sk}\Rightarrow b|sk~as~ord(\gamma)=b\end{aligned}
+$$
+
+Since $gcd(k,b)=1$, we must have that $k$ and $b$ both divides $s$ that is $bk$ divides $s$ implying $s=bk$, a contradiction.
+
+Therefore $t=q-1$ and the proof is complete
+
+###### Definition
+An element $α$ in a finite field $F$ is called a primitive element of $F$ if it is $a$ generator of $F^∗$ .
+
+Ex. $α := x$ is a primitive element of $F_{8}$ .
+
+###### The minimal polynomial
+
+**Theorem**
+
+Let $\alpha \in F_{q}^*$, $q=p^n$, $p$ a prime. There exists a unique monic polynomial $m(x) \in F_{p}[x]$ of minimum degree such that $m(\alpha) =0$
+
+The polynomial $m(x)$ is called the minimal polynomial of $α$ and it will be denoted by $m_{\alpha}(x)$.
+
+**Theorem**
+
+The minimal polynomial of an element $α ∈ F_{q}^∗$ is an irreducible polynomial over $F_{p}$ .
+
+We observe that for every element $α ∈ F_{q}$ we have $α^q = α$.
+
+Let $t$ be the smallest positive integer such that $\alpha^{p^t} = \alpha$
+
+We define the set of conjugates of $\alpha$ as the set:
+$$C(\alpha)=\{\alpha,\alpha^p,\alpha^{p^2},\ldots,\alpha^{p^{t-1}}\}.$$
+
+**Theorem**
+
+For $α ∈ F_{q}^∗$ the minimal polynomial of α is given by
+$$m_{\alpha(x)}=\prod_{\beta\in\mathcal{C}(\alpha)}(x-\beta)$$
+whose coefficients are in $F_{p}$
+
+By using minimal polynomials of primitive elements of finite fields it is possible to prove
+
+###### Theorem
+Any two finite fields with the same number of elements are isomorphic.
+Therefore, we can use the term the finite field $GF(q)$ since there is only one such field up to isomorphisms.
+
